@@ -1,0 +1,893 @@
+BOS/O i/O would/O like/O to/B-to_word find/O a/O flight/O from/B-from_word charlotte/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name that/O makes/O a/O stop/O in/O st./B-stoploc.city_name louis/I-stoploc.city_name EOS/O
+BOS/O on/B-on_word april/B-depart_date.month_name first/B-depart_date.day_number i/O need/O a/O ticket/O from/B-from_word tacoma/B-fromloc.city_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name departing/O before/B-depart_time.time_relative 7/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O on/B-on_word april/B-depart_date.month_name first/B-depart_date.day_number i/O need/O a/O flight/O going/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O a/O flight/O traveling/O one/B-round_trip way/I-round_trip from/B-from_word phoenix/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name on/B-on_word april/B-depart_date.month_name first/B-depart_date.day_number EOS/O
+BOS/O i/O would/O like/O a/O flight/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name for/O april/B-depart_date.month_name first/B-depart_date.day_number on/B-on_word delta/B-airline_name airlines/I-airline_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word newark/B-toloc.city_name one/B-round_trip way/I-round_trip leaving/O wednesday/B-depart_date.day_name evening/B-depart_time.period_of_day or/B-or thursday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O monday/B-depart_date.day_name morning/B-depart_time.period_of_day i/O would/O like/O to/B-to_word fly/O from/B-from_word columbus/B-fromloc.city_name to/B-to_word indianapolis/B-toloc.city_name EOS/O
+BOS/O on/B-on_word wednesday/B-depart_date.day_name april/B-depart_date.month_name sixth/B-depart_date.day_number i/O would/O like/O to/B-to_word fly/O from/B-from_word long/B-fromloc.city_name beach/I-fromloc.city_name to/B-to_word columbus/B-toloc.city_name after/B-depart_time.time_relative 3/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O after/B-depart_time.time_relative 12/B-depart_time.time pm/I-depart_time.time on/B-on_word wednesday/B-depart_date.day_name april/B-depart_date.month_name sixth/B-depart_date.day_number i/O would/O like/O to/B-to_word fly/O from/B-from_word long/B-fromloc.city_name beach/I-fromloc.city_name to/B-to_word columbus/B-toloc.city_name EOS/O
+BOS/O are/O there/O any/O flights/O from/B-from_word long/B-fromloc.city_name beach/I-fromloc.city_name to/B-to_word columbus/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name april/B-depart_date.month_name sixth/B-depart_date.day_number EOS/O
+BOS/O find/O a/O flight/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name dinner/B-meal_description EOS/O
+BOS/O on/B-on_word next/B-depart_date.date_relative wednesday/B-depart_date.day_name flight/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word chicago/B-toloc.city_name should/O arrive/O in/O chicago/B-toloc.city_name around/B-arrive_time.time_relative 7/B-arrive_time.time pm/I-arrive_time.time return/O flight/O on/B-on_word thursday/B-depart_date.day_name EOS/O
+BOS/O show/O flight/O and/O prices/O kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word chicago/B-toloc.city_name on/B-on_word next/B-depart_date.date_relative wednesday/B-depart_date.day_name arriving/O in/O chicago/B-toloc.city_name by/B-arrive_time.time_relative 7/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O flight/O on/B-on_word american/B-airline_name from/B-from_word miami/B-fromloc.city_name to/B-to_word chicago/B-toloc.city_name arrive/O in/O chicago/B-toloc.city_name about/B-arrive_time.time_relative 5/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O find/O flights/O arriving/O new/B-toloc.city_name york/I-toloc.city_name city/I-toloc.city_name next/B-depart_date.date_relative saturday/B-depart_date.day_name EOS/O
+BOS/O find/O nonstop/B-flight_stop flights/O from/B-from_word salt/B-fromloc.city_name lake/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name on/B-on_word saturday/B-depart_date.day_name april/B-depart_date.month_name ninth/B-depart_date.day_number EOS/O
+BOS/O show/O flights/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name for/O today/B-depart_date.today_relative EOS/O
+BOS/O show/O flights/O tomorrow/B-depart_date.today_relative evening/B-depart_time.period_of_day from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name EOS/O
+BOS/O show/O flights/O saturday/B-depart_date.day_name evening/B-depart_time.period_of_day from/B-from_word st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word burbank/B-toloc.city_name EOS/O
+BOS/O show/O flights/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name on/B-on_word monday/B-depart_date.day_name EOS/O
+BOS/O show/O flights/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name EOS/O
+BOS/O show/O flights/O tuesday/B-depart_date.day_name evening/B-depart_time.period_of_day from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name EOS/O
+BOS/O show/O flights/O wednesday/B-depart_date.day_name evening/B-depart_time.period_of_day from/B-from_word st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word burbank/B-toloc.city_name EOS/O
+BOS/O which/O flights/O travel/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O what/O flights/O travel/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O which/O flights/O travel/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name on/B-on_word april/B-depart_date.month_name ninth/B-depart_date.day_number EOS/O
+BOS/O which/O flights/O travel/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name california/B-toloc.state_name and/O arrive/O on/B-on_word april/B-depart_date.month_name ninth/B-depart_date.day_number between/O 4/B-depart_time.end_time and/O 5/B-arrive_time.end_time pm/I-arrive_time.end_time EOS/O
+BOS/O which/O flights/O on/B-on_word us/B-airline_name air/I-airline_name go/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name EOS/O
+BOS/O which/O flights/O travel/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word indianapolis/B-toloc.city_name on/B-on_word april/B-depart_date.month_name fifth/B-depart_date.day_number EOS/O
+BOS/O which/O flights/O travel/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name on/B-on_word april/B-depart_date.month_name fifth/B-depart_date.day_number EOS/O
+BOS/O which/O flights/O go/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word indianapolis/B-toloc.city_name on/B-on_word april/B-depart_date.month_name fifth/B-depart_date.day_number EOS/O
+BOS/O which/O flights/O travel/O from/B-from_word nashville/B-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name EOS/O
+BOS/O does/O tacoma/B-airport_name airport/I-airport_name offer/O transportation/O from/B-from_word the/O airport/O to/B-to_word the/O downtown/O area/O EOS/O
+BOS/O which/O flights/O travel/O from/B-from_word tacoma/B-fromloc.city_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name EOS/O
+BOS/O what/O day/O of/O the/O week/O do/O flights/O from/B-from_word nashville/B-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name fly/O on/B-on_word EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word tacoma/B-fromloc.city_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name EOS/O
+BOS/O what/O days/O of/O the/O week/O do/O flights/O from/B-from_word san/B-fromloc.city_name jose/I-fromloc.city_name to/B-to_word nashville/B-toloc.city_name fly/O on/B-on_word EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word tacoma/B-fromloc.city_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O that/O goes/O from/B-from_word boston/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O are/O there/O any/O flights/O from/B-from_word boston/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name connecting/B-connect in/O new/B-fromloc.city_name york/I-fromloc.city_name EOS/O
+BOS/O are/O there/O any/O flights/O from/B-from_word boston/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name connecting/B-connect in/O columbus/B-toloc.city_name EOS/O
+BOS/O does/O this/O flight/O serve/O dinner/B-meal_description EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word charlotte/B-fromloc.city_name to/B-to_word miami/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O nonstop/B-flight_stop flight/O from/B-from_word miami/B-fromloc.city_name to/B-to_word toronto/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O nonstop/B-flight_stop flight/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O on/B-on_word united/B-airline_name airlines/I-airline_name from/B-from_word la/B-fromloc.airport_name guardia/I-fromloc.airport_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word tampa/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O what/O meals/B-meal are/O served/O on/B-on_word american/B-airline_name flight/O 811/B-flight_number from/B-from_word tampa/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O what/O meals/B-meal are/O served/O on/B-on_word american/B-airline_name flight/O 665/B-flight_number 673/B-flight_number from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word ontario/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word ontario/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name EOS/O
+BOS/O which/O flights/O go/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word tampa/B-toloc.city_name and/O stop/O in/O nashville/B-fromloc.city_name EOS/O
+BOS/O which/O flights/O leave/O newark/B-fromloc.city_name after/B-depart_time.time_relative noon/B-depart_time.time next/B-depart_date.date_relative saturday/B-depart_date.day_name and/O arrive/O in/O los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O which/O flights/O leave/O detroit/B-city_name and/O arrive/O at/B-at_word st./B-toloc.city_name petersburg/I-toloc.city_name around/B-depart_time.time_relative 9/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O which/O flights/O on/B-on_word northwest/B-airline_name airline/I-airline_name leave/O detroit/B-city_name and/O arrive/O at/B-at_word st./B-city_name petersburg/I-city_name EOS/O
+BOS/O which/O flights/O leave/O chicago/B-toloc.city_name next/B-depart_date.date_relative tuesday/B-depart_date.day_name and/O arrive/O in/O detroit/B-toloc.city_name around/B-arrive_time.time_relative 6/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O show/O me/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word detroit/B-toloc.city_name leaving/O next/B-depart_date.date_relative tuesday/B-depart_date.day_name and/O returning/O the/O day/O after/B-depart_time.time_relative EOS/O
+BOS/O which/O round/B-round_trip trip/I-round_trip flights/O leave/O chicago/B-toloc.city_name next/B-arrive_date.date_relative tuesday/B-arrive_date.day_name around/B-arrive_time.time_relative 6/B-arrive_time.time pm/I-arrive_time.time and/O arrive/O in/O detroit/B-city_name EOS/O
+BOS/O which/O round/B-round_trip trip/I-round_trip flights/O leave/O chicago/B-toloc.city_name next/B-depart_date.date_relative tuesday/B-depart_date.day_name and/O arrive/O in/O detroit/B-toloc.city_name around/B-arrive_time.time_relative 6/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O which/O flights/O leave/O on/B-on_word monday/B-depart_date.day_name from/B-from_word montreal/B-fromloc.city_name and/O arrive/O in/O chicago/B-toloc.city_name in/O the/O morning/B-depart_time.period_of_day EOS/O
+BOS/O which/O flights/O leave/O chicago/B-toloc.city_name on/B-on_word april/B-depart_date.month_name twelfth/B-depart_date.day_number and/O arrive/O in/O indianapolis/B-stoploc.city_name in/O the/O morning/B-depart_time.period_of_day EOS/O
+BOS/O which/O flights/O leave/O on/B-on_word wednesday/B-depart_date.day_name april/B-depart_date.month_name thirteenth/B-depart_date.day_number from/B-from_word indianapolis/B-fromloc.city_name and/O arrive/O in/O montreal/B-toloc.city_name in/O the/O morning/B-depart_time.period_of_day EOS/O
+BOS/O which/O flights/O leave/O april/B-depart_date.month_name twelfth/B-depart_date.day_number from/B-from_word indianapolis/B-fromloc.city_name and/O arrive/O in/O montreal/B-toloc.city_name around/B-arrive_time.time_relative 10/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O i/O 'd/O like/O to/B-to_word go/O from/B-from_word long/B-fromloc.city_name beach/I-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name and/O i/O 'd/O like/O to/B-to_word stop/O in/O dallas/B-stoploc.city_name i/O 'd/O also/O like/O to/B-to_word have/O lunch/B-meal_description during/O my/O flight/O EOS/O
+BOS/O next/B-depart_date.date_relative wednesday/B-depart_date.day_name i/O would/O like/O to/B-to_word leave/O kansas/B-stoploc.city_name city/I-stoploc.city_name on/B-on_word a/O trip/O to/B-to_word chicago/B-toloc.city_name which/O arrives/O in/O chicago/B-toloc.city_name around/B-arrive_time.time_relative 7/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O i/O would/O like/O to/B-to_word return/O from/B-from_word chicago/B-fromloc.city_name around/B-depart_time.time_relative 7/B-depart_time.time pm/I-depart_time.time to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O to/B-to_word leave/O this/O afternoon/B-depart_time.period_of_day on/B-on_word an/O american/B-airline_name flight/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word burbank/B-toloc.city_name EOS/O
+BOS/O on/B-on_word sunday/B-depart_date.day_name evening/B-depart_time.period_of_day i/O would/O like/O to/B-to_word leave/O montreal/B-fromloc.city_name quebec/B-fromloc.state_name on/B-on_word a/O flight/O to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name california/B-toloc.state_name EOS/O
+BOS/O what/O are/O the/O flights/O on/B-on_word sunday/B-depart_date.day_name from/B-from_word montreal/B-fromloc.city_name quebec/B-fromloc.state_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name california/B-toloc.state_name EOS/O
+BOS/O on/B-on_word tuesday/B-depart_date.day_name are/O the/O flights/O from/B-from_word san/B-fromloc.city_name diego/I-fromloc.city_name california/B-fromloc.state_name to/B-to_word indianapolis/B-toloc.city_name indiana/B-toloc.state_name i/O would/O like/O the/O flight/O to/B-to_word be/O in/O the/O afternoon/B-depart_time.period_of_day EOS/O
+BOS/O on/B-on_word thursday/B-depart_date.day_name morning/B-depart_time.period_of_day i/O would/O like/O a/O nonstop/B-flight_stop flight/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word toronto/B-toloc.city_name EOS/O
+BOS/O on/B-on_word friday/B-depart_date.day_name morning/B-depart_time.period_of_day i/O would/O like/O to/B-to_word fly/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word montreal/B-toloc.city_name EOS/O
+BOS/O i/O would/O like/O an/O early/B-depart_time.period_of_day morning/B-depart_time.period_of_day flight/O today/B-depart_date.today_relative from/B-from_word los/B-fromloc.city_name angeles/I-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name EOS/O
+BOS/O on/B-on_word wednesday/B-depart_date.day_name night/B-depart_time.period_of_day i/O would/O like/O a/O flight/O from/B-from_word charlotte/B-fromloc.city_name to/B-to_word newark/B-toloc.city_name EOS/O
+BOS/O on/B-on_word friday/B-depart_date.day_name night/B-depart_time.period_of_day i/O would/O like/O a/O flight/O from/B-from_word newark/B-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O find/O a/O flight/O from/B-from_word tampa/B-fromloc.city_name to/B-to_word montreal/B-toloc.city_name by/O way/O of/O new/B-fromloc.city_name york/I-fromloc.city_name EOS/O
+BOS/O please/O find/O a/O flight/O from/B-from_word miami/B-fromloc.city_name florida/B-fromloc.state_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name nevada/B-toloc.state_name arriving/O before/B-arrive_time.time_relative 4/B-arrive_time.time o'clock/I-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O please/O find/O a/O flight/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word michigan/O EOS/O
+BOS/O please/O find/O a/O flight/O from/B-from_word detroit/B-fromloc.city_name michigan/I-fromloc.city_name to/B-to_word st./B-toloc.city_name petersburg/I-toloc.city_name arriving/O before/B-arrive_time.time_relative 10/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O please/O find/O a/O flight/O from/B-from_word st./B-fromloc.city_name petersburg/I-fromloc.city_name to/B-to_word miami/B-toloc.city_name on/B-on_word thursday/B-depart_date.day_name EOS/O
+BOS/O please/O find/O a/O flight/O from/B-from_word san/B-fromloc.city_name diego/I-fromloc.city_name to/B-to_word toronto/B-toloc.city_name on/B-on_word alaska/B-airline_name airlines/I-airline_name EOS/O
+BOS/O please/O find/O the/O flights/O from/B-from_word columbus/B-fromloc.city_name to/B-to_word houston/B-toloc.city_name with/O a/O layover/O in/O nashville/B-fromloc.city_name tomorrow/B-depart_date.today_relative EOS/O
+BOS/O please/O give/O me/O the/O flights/O from/B-from_word nashville/B-fromloc.city_name to/B-to_word houston/B-toloc.city_name nonstop/B-flight_stop with/O dinner/B-meal_description served/O EOS/O
+BOS/O please/O find/O flights/O available/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word newark/B-toloc.city_name EOS/O
+BOS/O please/O find/O a/O flight/O that/O goes/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word newark/B-toloc.city_name to/B-to_word orlando/B-toloc.city_name back/O to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O please/O find/O a/O flight/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word newark/B-toloc.city_name EOS/O
+BOS/O please/O find/O a/O flight/O from/B-from_word newark/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O please/O find/O a/O flight/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O to/B-to_word fly/O from/B-from_word columbus/B-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name through/O cincinnati/B-stoploc.city_name in/O the/O afternoon/B-depart_time.period_of_day EOS/O
+BOS/O i/O would/O like/O to/B-to_word know/O what/O airports/O are/O in/O los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O does/O the/O airport/O at/B-at_word burbank/B-toloc.city_name have/O a/O flight/O that/O comes/O in/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name EOS/O
+BOS/O which/O flights/O arrive/O in/O burbank/B-toloc.city_name from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name on/B-on_word saturdays/B-depart_date.day_name in/O the/O afternoon/B-depart_time.period_of_day EOS/O
+BOS/O which/O flights/O arrive/O in/O burbank/B-toloc.city_name from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name on/B-on_word saturday/B-depart_date.day_name april/B-depart_date.month_name twenty/B-depart_date.day_number third/I-depart_date.day_number in/O the/O afternoon/B-depart_time.period_of_day EOS/O
+BOS/O which/O flights/O are/O available/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name that/O arrive/O around/B-arrive_time.time_relative 10/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O what/O flights/O are/O available/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name on/B-on_word april/B-depart_date.month_name twenty/B-depart_date.day_number first/I-depart_date.day_number in/O the/O late/B-depart_time.period_of_day afternoon/I-depart_time.period_of_day EOS/O
+BOS/O what/O flights/O leave/O cleveland/B-toloc.city_name going/O to/B-to_word indianapolis/B-toloc.city_name on/B-on_word april/B-depart_date.month_name twenty/B-depart_date.day_number first/I-depart_date.day_number in/O the/O morning/B-depart_time.period_of_day EOS/O
+BOS/O which/O flights/O are/O available/O on/B-on_word april/B-depart_date.month_name twenty/B-depart_date.day_number first/I-depart_date.day_number in/O the/O morning/B-depart_time.period_of_day from/B-from_word nashville/B-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name EOS/O
+BOS/O which/O flights/O are/O available/O from/B-from_word tacoma/B-fromloc.city_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name in/O the/O morning/B-depart_time.period_of_day on/B-on_word april/B-depart_date.month_name twenty/B-depart_date.day_number second/I-depart_date.day_number EOS/O
+BOS/O which/O flights/O are/O available/O from/B-from_word san/B-fromloc.city_name jose/I-fromloc.city_name to/B-to_word nashville/B-toloc.city_name leaving/O in/O the/O morning/B-depart_time.period_of_day on/B-on_word april/B-depart_date.month_name twenty/B-depart_date.day_number three/I-depart_date.day_number EOS/O
+BOS/O what/O is/O the/O most/B-cost_relative expensive/I-cost_relative one/B-round_trip way/I-round_trip fare/O between/O detroit/B-city_name and/O westchester/B-city_name county/I-city_name EOS/O
+BOS/O what/O airlines/O fly/O between/O detroit/B-city_name and/O westchester/B-city_name county/I-city_name EOS/O
+BOS/O what/O are/O the/O departure/B-flight_time times/I-flight_time from/B-from_word detroit/B-fromloc.city_name to/B-to_word westchester/B-toloc.city_name county/I-toloc.city_name EOS/O
+BOS/O what/O is/O the/O latest/B-flight_mod flight/O from/B-from_word baltimore/B-fromloc.city_name to/B-to_word oakland/B-toloc.city_name that/O serves/O dinner/B-meal_description EOS/O
+BOS/O what/O is/O the/O earliest/B-flight_mod flight/O between/O baltimore/B-toloc.city_name and/O oakland/B-toloc.city_name that/O serves/O breakfast/B-meal_description EOS/O
+BOS/O to/B-to_word what/O cities/O from/B-from_word boston/B-fromloc.city_name does/O america/B-airline_name west/I-airline_name fly/O first/B-class_type class/I-class_type EOS/O
+BOS/O what/O airline/O flies/O from/B-from_word boston/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O what/O is/O the/O latest/B-flight_mod breakfast/B-meal_description flight/O from/B-from_word dallas/B-fromloc.city_name to/B-to_word tampa/B-toloc.city_name EOS/O
+BOS/O show/O me/O all/O lufthansa/B-airline_name flights/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word boston/B-toloc.city_name with/O stopovers/O in/O minneapolis/B-stoploc.city_name EOS/O
+BOS/O show/O me/O all/O flights/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word boston/B-toloc.city_name with/O stopovers/O in/O minneapolis/B-stoploc.city_name EOS/O
+BOS/O list/O philadelphia/B-fromloc.city_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name flights/O with/O stopovers/O in/O dallas/B-stoploc.city_name EOS/O
+BOS/O show/O me/O the/O connecting/B-connect flights/O between/O boston/B-fromloc.city_name and/O denver/B-stoploc.city_name and/O the/O types/O of/O aircraft/O used/O EOS/O
+BOS/O show/O me/O all/O the/O morning/B-depart_time.period_of_day flights/O from/B-from_word philadelphia/B-fromloc.city_name to/B-to_word fort/B-toloc.city_name worth/I-toloc.city_name EOS/O
+BOS/O show/O me/O all/O the/O flights/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word st./B-toloc.city_name paul/I-toloc.city_name EOS/O
+BOS/O show/O me/O northwest/B-airline_name flight/O 608/B-flight_number from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word st./B-toloc.city_name paul/I-toloc.city_name EOS/O
+BOS/O show/O me/O all/O the/O flights/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name EOS/O
+BOS/O what/O is/O the/O ground/O transportation/O between/O the/O charlotte/B-airport_name airport/I-airport_name charlotte/I-airport_name airport/I-airport_name and/O downtown/O charlotte/B-toloc.city_name EOS/O
+BOS/O show/O me/O all/O the/O flights/O from/B-from_word charlotte/B-fromloc.city_name to/B-to_word minneapolis/B-toloc.city_name that/O leave/O at/B-at_word 2/B-depart_time.time pm/I-depart_time.time or/B-or later/B-arrive_time.time_relative on/B-on_word monday/B-depart_date.day_name EOS/O
+BOS/O show/O me/O all/O the/O flights/O from/B-from_word charlotte/B-fromloc.city_name to/B-to_word minneapolis/B-toloc.city_name on/B-on_word tuesday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O show/O me/O the/O direct/B-connect flights/O from/B-from_word charlotte/B-fromloc.city_name to/B-to_word minneapolis/B-toloc.city_name on/B-on_word tuesday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O show/O me/O flight/O us/B-airline_code 1500/B-flight_number on/B-on_word monday/B-depart_date.day_name from/B-from_word charlotte/B-fromloc.city_name to/B-to_word minneapolis/B-toloc.city_name please/O EOS/O
+BOS/O show/O me/O all/O the/O flights/O from/B-from_word minneapolis/B-fromloc.city_name to/B-to_word indianapolis/B-toloc.city_name on/B-on_word tuesday/B-depart_date.day_name that/O leave/O after/B-depart_time.time_relative 2/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O show/O me/O the/O flights/O from/B-from_word minneapolis/B-fromloc.city_name to/B-to_word indiana/O EOS/O
+BOS/O show/O me/O the/O flights/O in/O from/B-from_word minneapolis/B-fromloc.city_name to/B-to_word indianapolis/B-toloc.city_name on/B-on_word tuesday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O show/O me/O flight/O us/B-airline_code 1207/B-flight_number from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name and/O flight/O us/B-airline_code 1500/B-flight_number from/B-from_word charlotte/B-fromloc.city_name to/B-to_word minneapolis/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name and/O flight/O twa/B-airline_code 639/B-flight_number from/B-from_word minneapolis/B-fromloc.city_name to/B-to_word indianapolis/B-toloc.city_name EOS/O
+BOS/O show/O me/O all/O the/O flights/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O which/O different/O airlines/O go/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O show/O me/O all/O the/O flights/O on/B-on_word america/B-airline_name west/I-airline_name and/O twa/B-airline_code from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word jfk/B-toloc.airport_code on/B-on_word a/O friday/B-depart_date.day_name EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word tacoma/B-fromloc.city_name to/B-to_word miami/B-toloc.city_name that/O leave/O after/B-depart_time.time_relative 6/B-depart_time.time pm/I-depart_time.time tomorrow/B-depart_date.today_relative EOS/O
+BOS/O i/O 'd/O like/O to/B-to_word fly/O from/B-from_word san/B-fromloc.city_name diego/I-fromloc.city_name to/B-to_word houston/B-toloc.city_name on/B-on_word june/B-depart_date.month_name tenth/B-depart_date.day_number EOS/O
+BOS/O is/O there/O an/O american/B-airline_name airlines/I-airline_name flight/O from/B-from_word houston/B-fromloc.city_name to/B-to_word newark/B-toloc.city_name on/B-on_word june/B-depart_date.month_name tenth/B-depart_date.day_number after/B-depart_time.time_relative 6/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O is/O there/O an/O american/B-airline_name airlines/I-airline_name flight/O from/B-from_word houston/B-fromloc.city_name to/B-to_word newark/B-toloc.city_name on/B-on_word june/B-depart_date.month_name tenth/B-depart_date.day_number after/B-depart_time.time_relative 3/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O i/O need/O to/B-to_word get/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word denver/B-toloc.city_name on/B-on_word june/B-arrive_date.month_name sixth/B-arrive_date.day_number by/B-arrive_time.time_relative 6/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O what/O 's/O the/O ground/O transportation/O in/O denver/B-stoploc.city_name EOS/O
+BOS/O what/O 's/O the/O fare/O for/O a/O taxi/B-transport_type to/B-to_word denver/B-toloc.city_name EOS/O
+BOS/O what/O are/O the/O fares/O for/O ground/O transportation/O in/O denver/B-stoploc.city_name EOS/O
+BOS/O i/O need/O to/B-to_word fly/O from/B-from_word denver/B-fromloc.city_name to/B-to_word westchester/B-toloc.city_name county/I-toloc.city_name on/B-on_word june/B-depart_date.month_name seventh/B-depart_date.day_number after/B-depart_time.time_relative 3/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O what/O 's/O the/O ground/O transportation/O in/O westchester/B-city_name county/I-city_name EOS/O
+BOS/O i/O need/O to/B-to_word take/O a/O united/B-airline_name airlines/I-airline_name flight/O on/B-on_word june/B-depart_date.month_name eighth/B-depart_date.day_number from/B-from_word westchester/B-fromloc.city_name county/I-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name after/B-depart_time.time_relative 3/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O what/O united/B-airline_name airlines/I-airline_name flights/O on/B-on_word june/B-depart_date.month_name eighth/B-depart_date.day_number go/O from/B-from_word westchester/B-fromloc.city_name county/I-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name EOS/O
+BOS/O on/B-on_word june/B-depart_date.month_name eighth/B-depart_date.day_number what/O flights/O go/O from/B-from_word westchester/B-fromloc.city_name county/I-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name EOS/O
+BOS/O does/O us/B-airline_name air/I-airline_name fly/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word denver/B-toloc.city_name on/B-on_word june/B-depart_date.month_name sixth/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word denver/B-toloc.city_name on/B-on_word june/B-depart_date.month_name sixth/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O from/B-from_word denver/B-fromloc.city_name to/B-to_word westchester/B-toloc.city_name county/I-toloc.city_name on/B-on_word june/B-depart_date.month_name seventh/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O from/B-from_word westchester/B-fromloc.city_name county/I-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name on/B-on_word june/B-depart_date.month_name eighth/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word westchester/B-toloc.city_name county/I-toloc.city_name on/B-on_word june/B-depart_date.month_name sixth/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O from/B-from_word westchester/B-fromloc.city_name county/I-fromloc.city_name to/B-to_word denver/B-toloc.city_name on/B-on_word june/B-depart_date.month_name seventh/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O from/B-from_word denver/B-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name on/B-on_word june/B-depart_date.month_name eighth/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O from/B-from_word denver/B-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name on/B-on_word june/B-depart_date.month_name sixth/B-depart_date.day_number after/B-depart_time.time_relative 4/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O list/O the/O flights/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word westchester/B-toloc.city_name county/I-toloc.city_name on/B-on_word june/B-depart_date.month_name seventh/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O from/B-from_word westchester/B-fromloc.city_name county/I-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name on/B-on_word june/B-depart_date.month_name seventh/B-depart_date.day_number leaving/O after/B-depart_time.time_relative 5/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O what/O airlines/O off/O from/B-from_word love/B-fromloc.airport_name field/I-fromloc.airport_name between/O 6/B-depart_time.start_time and/O 10/B-depart_time.start_time am/I-depart_time.start_time on/B-on_word june/B-depart_date.month_name sixth/B-depart_date.day_number EOS/O
+BOS/O what/O flights/O arrive/O at/B-at_word love/B-toloc.airport_name field/I-toloc.airport_name on/B-on_word june/B-depart_date.month_name sixth/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O from/B-from_word montreal/B-fromloc.city_name to/B-to_word philly/B-toloc.city_name before/B-depart_time.time_relative 9/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O list/O the/O flights/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name EOS/O
+BOS/O list/O the/O flights/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name EOS/O
+BOS/O list/O the/O flights/O from/B-from_word denver/B-fromloc.city_name to/B-to_word baltimore/B-toloc.city_name arriving/O on/B-on_word july/B-depart_date.month_name first/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O from/B-from_word dallas/B-fromloc.city_name to/B-to_word baltimore/B-toloc.city_name arriving/O july/B-depart_date.month_name first/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O from/B-from_word pittsburgh/B-fromloc.city_name to/B-to_word baltimore/B-toloc.city_name arriving/O on/B-on_word july/B-depart_date.month_name first/B-depart_date.day_number EOS/O
+BOS/O list/O the/O flights/O on/B-on_word canadian/B-airline_name airlines/I-airline_name international/I-airline_name EOS/O
+BOS/O how/O many/O canadian/B-airline_name airlines/I-airline_name international/I-airline_name flights/O use/O j31/B-aircraft_code EOS/O
+BOS/O how/O many/O canadian/B-airline_name airlines/I-airline_name international/I-airline_name flights/O use/O aircraft/O 320/B-flight_number EOS/O
+BOS/O how/O many/O canadian/B-airline_name airlines/I-airline_name flights/O use/O aircraft/O dh8/B-aircraft_code EOS/O
+BOS/O show/O me/O the/O flights/O on/B-on_word american/B-airline_name airlines/I-airline_name which/O fly/O from/B-from_word st./B-fromloc.city_name petersburg/I-fromloc.city_name to/B-to_word ontario/B-toloc.city_name canada/B-toloc.country_name with/O a/O stopover/O in/O st./B-stoploc.city_name louis/I-stoploc.city_name EOS/O
+BOS/O show/O me/O the/O flights/O on/B-on_word american/B-airline_name airlines/I-airline_name which/O go/O from/B-from_word st./B-fromloc.city_name petersburg/I-fromloc.city_name to/B-to_word ontario/B-toloc.city_name california/B-toloc.state_name by/O way/O of/O st./B-stoploc.city_name louis/I-stoploc.city_name EOS/O
+BOS/O which/O airport/O is/O closest/B-mod to/B-to_word ontario/B-toloc.city_name california/B-toloc.state_name EOS/O
+BOS/O show/O me/O the/O flights/O from/B-from_word houston/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O flights/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word houston/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O flights/O from/B-from_word detroit/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative round/B-round_trip trip/I-round_trip coach/B-class_type fare/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word detroit/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative round/B-round_trip trip/I-round_trip coach/B-class_type fare/O on/B-on_word twa/B-airline_code from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word detroit/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O delta/B-airline_name flights/O which/O serve/O a/O snack/O to/B-to_word coach/B-class_type passengers/O EOS/O
+BOS/O what/O is/O meal/B-meal code/O sb/O EOS/O
+BOS/O what/O meals/B-meal are/O available/O on/B-on_word dl/B-airline_code 468/B-flight_number which/O al/O arrives/O in/O san/B-toloc.city_name francisco/I-toloc.city_name at/B-at_word 950/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O show/O me/O the/O delta/B-airline_name flights/O from/B-from_word tampa/B-fromloc.city_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name EOS/O
+BOS/O show/O me/O delta/B-airline_name flight/O 486/B-flight_number EOS/O
+BOS/O list/O the/O tower/B-airline_name air/I-airline_name flights/O on/B-on_word mondays/B-depart_date.day_name EOS/O
+BOS/O list/O all/O tower/B-airline_name air/I-airline_name flights/O with/O meals/B-meal EOS/O
+BOS/O what/O flights/O depart/O from/B-from_word baltimore/B-fromloc.city_name EOS/O
+BOS/O what/O flights/O depart/O from/B-from_word baltimore/B-fromloc.city_name and/O arrive/O at/B-at_word san/B-city_name francisco/I-city_name on/B-on_word a/O friday/B-depart_date.day_name EOS/O
+BOS/O what/O flights/O leave/O from/B-from_word cincinnati/B-fromloc.city_name in/O the/O morning/B-depart_time.period_of_day and/O arrive/O in/O tampa/B-toloc.city_name EOS/O
+BOS/O which/O flights/O depart/O from/B-from_word tampa/B-fromloc.city_name and/O arrive/O in/O cincinnati/B-stoploc.city_name in/O the/O evening/B-depart_time.period_of_day EOS/O
+BOS/O which/O flights/O depart/O from/B-from_word tampa/B-fromloc.city_name in/O the/O early/B-depart_time.period_of_day evening/B-depart_time.period_of_day and/O arrive/O in/O cincinnati/B-stoploc.city_name EOS/O
+BOS/O which/O flights/O depart/O from/B-from_word philadelphia/B-fromloc.city_name and/O arrive/O in/O atlanta/B-fromloc.city_name EOS/O
+BOS/O which/O flights/O depart/O from/B-from_word a/O atlanta/B-fromloc.city_name and/O arrive/O in/O toronto/B-fromloc.city_name EOS/O
+BOS/O which/O flights/O depart/O from/B-from_word toronto/B-fromloc.city_name and/O arrive/O in/O washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O which/O flights/O depart/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name and/O arrive/O in/O los/B-toloc.city_name angeles/I-toloc.city_name after/B-depart_time.time_relative 10/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O how/O far/O is/O new/B-fromloc.city_name york/I-fromloc.city_name 's/I-fromloc.city_name la/B-fromloc.airport_name guardia/I-fromloc.airport_name from/B-from_word downtown/O EOS/O
+BOS/O how/O far/O is/O toronto/B-fromloc.airport_name international/I-fromloc.airport_name from/B-from_word downtown/O EOS/O
+BOS/O how/O far/O is/O los/B-toloc.airport_name angeles/I-toloc.airport_name international/I-toloc.airport_name from/B-from_word downtown/O EOS/O
+BOS/O how/O far/O is/O san/B-toloc.airport_name francisco/I-toloc.airport_name international/I-toloc.airport_name from/B-from_word downtown/O EOS/O
+BOS/O how/O much/O is/O the/O limousine/B-transport_type service/O in/O boston/B-fromloc.city_name EOS/O
+BOS/O how/O much/O is/O a/O limousine/B-transport_type service/O in/O la/B-fromloc.airport_name guardia/I-fromloc.airport_name EOS/O
+BOS/O how/O much/O is/O a/O limousine/B-transport_type service/O in/O toronto/B-fromloc.airport_name international/I-fromloc.airport_name EOS/O
+BOS/O how/O much/O is/O limousine/B-transport_type service/O in/O los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O what/O airlines/O fly/O between/O washington/B-toloc.city_name dc/B-toloc.state_code and/O columbus/B-toloc.city_name ohio/B-toloc.state_name EOS/O
+BOS/O what/O flights/O are/O there/O between/O washington/B-toloc.city_name dc/B-toloc.state_code and/O columbus/B-toloc.city_name ohio/B-toloc.state_name EOS/O
+BOS/O what/O are/O the/O flights/O between/O washington/B-toloc.city_name dc/B-toloc.state_code and/O columbus/B-toloc.city_name ohio/B-toloc.state_name EOS/O
+BOS/O what/O are/O the/O fares/O for/O all/O flights/O between/O washington/B-toloc.city_name and/O columbus/B-toloc.city_name EOS/O
+BOS/O at/B-at_word the/O charlotte/B-airport_name airport/I-airport_name how/O many/O different/O types/O of/O aircraft/O are/O there/O for/O us/B-airline_name air/I-airline_name EOS/O
+BOS/O list/O all/O us/B-airline_name air/I-airline_name flights/O arriving/O in/O charlotte/B-toloc.city_name on/B-on_word saturday/B-depart_date.day_name at/B-at_word 1/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O what/O is/O the/O first/B-class_type class/I-class_type round/B-round_trip trip/I-round_trip airfare/O from/B-from_word india/O indianapolis/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name EOS/O
+BOS/O list/O all/O flights/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word miami/B-toloc.city_name EOS/O
+BOS/O list/O all/O flights/O and/O their/O fares/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name on/B-on_word a/O monday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O list/O all/O flights/O and/O their/O fares/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word miami/B-toloc.city_name on/B-on_word a/O wednesday/B-depart_date.day_name evening/B-depart_time.period_of_day EOS/O
+BOS/O list/O all/O flights/O and/O their/O fares/O for/O all/O flights/O between/O miami/B-toloc.city_name and/O indianapolis/B-stoploc.city_name EOS/O
+BOS/O list/O all/O flights/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name on/B-on_word monday/B-depart_date.day_name EOS/O
+BOS/O list/O all/O flights/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name EOS/O
+BOS/O list/O all/O flights/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word nashville/B-toloc.city_name EOS/O
+BOS/O list/O all/O flights/O from/B-from_word nashville/B-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name on/B-on_word sunday/B-depart_date.day_name EOS/O
+BOS/O list/O all/O sunday/B-depart_date.day_name flights/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word nashville/B-toloc.city_name and/O their/O fares/O EOS/O
+BOS/O what/O airlines/O are/O departing/O from/B-from_word baltimore/B-fromloc.city_name EOS/O
+BOS/O which/O airlines/O fly/O from/B-from_word baltimore/B-fromloc.city_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name EOS/O
+BOS/O how/O long/O does/O a/O flight/O from/B-from_word baltimore/B-fromloc.city_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name take/O EOS/O
+BOS/O which/O flights/O are/O leaving/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word atlanta/B-toloc.city_name early/B-depart_time.period_mod monday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O which/O flights/O are/O leaving/O atlanta/B-fromloc.city_name and/O arriving/O in/O st./B-toloc.city_name louis/I-toloc.city_name close/B-arrive_time.time_relative to/B-to_word 230/B-arrive_time.time pm/I-arrive_time.time on/B-on_word tuesday/B-depart_date.day_name EOS/O
+BOS/O please/O list/O flights/O from/B-from_word st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word st./B-toloc.city_name paul/I-toloc.city_name which/O depart/O after/B-depart_time.time_relative 10/B-depart_time.time am/I-depart_time.time thursday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O list/O flights/O from/B-from_word st./B-fromloc.city_name paul/I-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name friday/B-depart_date.day_name in/O the/O evening/B-depart_time.period_of_day with/O a/O meal/B-meal included/O EOS/O
+BOS/O list/O early/B-depart_time.period_of_day morning/B-depart_time.period_of_day flights/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word tampa/B-toloc.city_name EOS/O
+BOS/O list/O early/B-depart_time.period_of_day evening/B-depart_time.period_of_day flights/O from/B-from_word tampa/B-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name EOS/O
+BOS/O list/O evening/B-depart_time.period_of_day flights/O from/B-from_word tampa/B-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word philadelphia/B-fromloc.city_name to/B-to_word atlanta/B-toloc.city_name friday/B-depart_date.day_name am/B-depart_time.period_of_day EOS/O
+BOS/O list/O flights/O from/B-from_word atlanta/B-fromloc.city_name to/B-to_word toronto/B-toloc.city_name friday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O list/O flights/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code saturday/B-depart_date.day_name am/B-depart_time.period_of_day EOS/O
+BOS/O list/O flights/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word philadelphia/B-toloc.city_name saturday/B-depart_date.day_name pm/B-depart_time.period_of_day EOS/O
+BOS/O list/O direct/B-connect flights/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name after/B-depart_time.time_relative 10/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O list/O the/O airfare/O for/O american/B-airline_name airlines/I-airline_name flight/O 19/B-flight_number from/B-from_word jfk/B-fromloc.airport_code to/B-to_word lax/O EOS/O
+BOS/O what/O is/O fare/O code/O m/B-fare_basis_code EOS/O
+BOS/O list/O the/O distance/O in/O miles/O from/B-from_word boston/B-fromloc.airport_name airport/I-fromloc.airport_name to/B-to_word downtown/O boston/B-fromloc.city_name EOS/O
+BOS/O list/O the/O distance/O in/O miles/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name 's/I-fromloc.city_name la/B-fromloc.airport_name guardia/I-fromloc.airport_name airport/I-fromloc.airport_name to/B-to_word downtown/O new/B-fromloc.city_name york/I-fromloc.city_name city/I-fromloc.city_name EOS/O
+BOS/O list/O the/O distance/O in/O miles/O from/B-from_word toronto/B-fromloc.airport_name international/I-fromloc.airport_name airport/I-fromloc.airport_name to/B-to_word downtown/O toronto/B-fromloc.city_name EOS/O
+BOS/O list/O the/O distance/O in/O miles/O from/B-from_word san/B-fromloc.airport_name francisco/I-fromloc.airport_name international/I-fromloc.airport_name airport/I-fromloc.airport_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name downtown/O EOS/O
+BOS/O list/O limousine/B-transport_type rates/O for/O the/O city/B-city_name of/I-city_name boston/I-city_name EOS/O
+BOS/O list/O american/B-airline_name airlines/I-airline_name flights/O from/B-from_word houston/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name departing/O friday/B-depart_date.day_name pm/B-depart_time.period_of_day EOS/O
+BOS/O list/O flights/O from/B-from_word houston/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name friday/B-depart_date.day_name pm/B-depart_time.period_of_day EOS/O
+BOS/O list/O american/B-airline_name airlines/I-airline_name flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name wednesday/B-depart_date.day_name EOS/O
+BOS/O list/O american/B-airline_name airlines/I-airline_name flights/O from/B-from_word san/B-fromloc.city_name jose/I-fromloc.city_name to/B-to_word dallas/B-toloc.city_name friday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O list/O flights/O from/B-from_word dallas/B-fromloc.city_name to/B-to_word houston/B-toloc.city_name arriving/O sunday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O list/O airlines/O flying/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O for/O aircraft/O l10/B-aircraft_code EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O for/O delta/B-airline_name be1/I-airline_name EOS/O
+BOS/O list/O flights/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name on/B-on_word delta/B-airline_name l10/I-airline_name EOS/O
+BOS/O list/O flights/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name on/B-on_word delta/B-airline_name be1/I-airline_name EOS/O
+BOS/O list/O flights/O from/B-from_word boston/B-fromloc.city_name to/B-to_word pittsburgh/B-toloc.city_name daily/B-flight_days EOS/O
+BOS/O list/O flights/O from/B-from_word pittsburgh/B-fromloc.city_name to/B-to_word newark/B-toloc.city_name daily/B-flight_days EOS/O
+BOS/O list/O flights/O from/B-from_word newark/B-fromloc.city_name to/B-to_word boston/B-toloc.city_name daily/B-flight_days EOS/O
+BOS/O list/O us/B-airline_name air/I-airline_name flights/O leaving/O saturday/B-depart_date.day_name from/B-from_word charlotte/B-fromloc.city_name airport/O at/B-at_word 1/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O list/O us/B-airline_name air/I-airline_name flights/O leaving/O saturday/B-depart_date.day_name from/B-from_word charlotte/B-fromloc.city_name airport/O around/B-arrive_time.time_relative 1/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O list/O first/B-class_type class/I-class_type airfare/O round/B-round_trip trip/I-round_trip from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name EOS/O
+BOS/O what/O is/O fare/O code/O f/B-fare_basis_code EOS/O
+BOS/O list/O flights/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word miami/B-toloc.city_name wednesday/B-depart_date.day_name evening/B-depart_time.period_of_day EOS/O
+BOS/O list/O flights/O from/B-from_word miami/B-fromloc.city_name to/B-to_word indianapolis/B-toloc.city_name sunday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O from/B-from_word ontario/B-fromloc.city_name california/B-fromloc.state_name to/B-to_word orlando/B-toloc.city_name florida/B-toloc.state_name EOS/O
+BOS/O list/O flights/O from/B-from_word ontario/B-fromloc.city_name california/B-fromloc.state_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name utah/B-toloc.state_name EOS/O
+BOS/O list/O flights/O from/B-from_word ontario/B-fromloc.city_name california/B-fromloc.state_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name utah/B-arrive_date.date_relative monday/B-arrive_date.day_name EOS/O
+BOS/O list/O flights/O from/B-from_word salt/B-fromloc.city_name lake/I-fromloc.city_name city/I-fromloc.city_name utah/B-fromloc.state_name to/B-to_word phoenix/B-toloc.city_name arizona/B-toloc.state_name monday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O from/B-from_word salt/B-fromloc.city_name lake/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name arizona/B-toloc.state_name tuesday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O from/B-from_word phoenix/B-fromloc.city_name arizona/I-fromloc.city_name to/B-to_word ontario/B-toloc.city_name california/B-toloc.state_name wednesday/B-depart_date.day_name EOS/O
+BOS/O what/O airlines/O fly/O from/B-from_word baltimore/B-fromloc.city_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name EOS/O
+BOS/O what/O is/O the/O fare/O for/O a/O first/B-class_type class/I-class_type round/B-round_trip trip/I-round_trip ticket/O from/B-from_word detroit/B-fromloc.city_name to/B-to_word st./B-toloc.city_name petersburg/I-toloc.city_name EOS/O
+BOS/O what/O is/O the/O airfare/O for/O a/O round/B-round_trip trip/I-round_trip first/B-class_type class/I-class_type ticket/O from/B-from_word detroit/B-fromloc.city_name to/B-to_word st./B-toloc.city_name petersburg/I-toloc.city_name EOS/O
+BOS/O kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word atlanta/B-toloc.city_name monday/B-depart_date.day_name morning/B-depart_time.period_of_day flights/O EOS/O
+BOS/O monday/B-depart_date.day_name morning/B-depart_time.period_of_day flights/O from/B-from_word atlanta/B-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word atlanta/B-toloc.city_name monday/B-depart_date.day_name morning/B-depart_time.period_of_day flights/O EOS/O
+BOS/O atlanta/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name tuesday/B-depart_date.day_name before/B-depart_time.time_relative 230/B-depart_time.time pm/I-depart_time.time flights/O EOS/O
+BOS/O st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word st./B-toloc.city_name paul/I-toloc.city_name thursday/B-depart_date.day_name after/B-depart_time.time_relative 10/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O st./B-fromloc.city_name paul/I-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name friday/B-depart_date.day_name night/B-depart_time.period_of_day EOS/O
+BOS/O cleveland/B-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name arrive/O monday/B-depart_date.day_name before/B-depart_time.time_relative 3/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name flight/O arrive/O wednesday/B-arrive_date.day_name before/B-arrive_time.time_relative 5/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O cleveland/B-fromloc.city_name to/B-to_word nashville/B-toloc.city_name flight/O friday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O nashville/B-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name sunday/B-arrive_date.day_name before/B-arrive_time.time_relative 9/B-arrive_time.time EOS/O
+BOS/O first/B-class_type class/I-class_type flights/O pittsburgh/B-fromloc.city_name to/B-to_word newark/B-toloc.city_name monday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O flights/O newark/B-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name wednesday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O los/B-fromloc.city_name angeles/I-fromloc.city_name to/B-to_word minneapolis/B-toloc.city_name thursday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O minneapolis/B-fromloc.city_name to/B-to_word pittsburgh/B-toloc.city_name flight/O EOS/O
+BOS/O minneapolis/B-fromloc.city_name to/B-to_word pittsburgh/B-toloc.city_name first/B-class_type class/I-class_type flight/O EOS/O
+BOS/O i/O would/O like/O flights/O leaving/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O what/O does/O hp/B-airline_code stand/O for/O EOS/O
+BOS/O i/O would/O like/O flights/O from/B-from_word ontario/B-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name EOS/O
+BOS/O i/O would/O like/O flights/O from/B-from_word minneapolis/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O flights/O from/B-from_word salt/B-fromloc.city_name lake/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name EOS/O
+BOS/O i/O would/O like/O to/B-to_word see/O flights/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O i/O 'd/O like/O flights/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word miami/B-toloc.city_name EOS/O
+BOS/O i/O would/O like/O flights/O from/B-from_word miami/B-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O a/O flight/O leaving/O san/B-toloc.city_name francisco/I-toloc.city_name for/O san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O flights/O from/B-from_word san/B-fromloc.city_name diego/I-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O a/O flight/O from/B-from_word san/B-fromloc.city_name diego/I-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O flights/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name EOS/O
+BOS/O what/O does/O fare/O code/O bn/O mean/O EOS/O
+BOS/O i/O would/O like/O to/B-to_word have/O the/O airline/O that/O flies/O toronto/B-toloc.city_name detroit/B-toloc.city_name and/O st./B-stoploc.city_name louis/I-stoploc.city_name EOS/O
+BOS/O i/O would/O like/O a/O flight/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word detroit/B-toloc.city_name EOS/O
+BOS/O i/O would/O like/O a/O flight/O from/B-from_word detroit/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O a/O flight/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O flights/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word long/B-toloc.city_name beach/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O flights/O leaving/O san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O a/O flight/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word st./B-toloc.city_name petersburg/I-toloc.city_name EOS/O
+BOS/O show/O me/O a/O one/B-round_trip way/I-round_trip flight/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name leaving/O wednesday/B-depart_date.day_name afternoon/B-depart_time.period_of_day after/B-depart_time.time_relative 6/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O show/O me/O one/B-round_trip way/I-round_trip flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name EOS/O
+BOS/O show/O me/O flights/O from/B-from_word columbus/B-fromloc.city_name to/B-to_word chicago/B-toloc.city_name first/B-class_type class/I-class_type that/O leave/O before/B-depart_time.time_relative 10/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative round/B-round_trip trip/I-round_trip between/O st./B-fromloc.city_name petersburg/I-fromloc.city_name and/O detroit/B-city_name that/O arrives/O before/B-arrive_time.time_relative 7/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O show/O me/O nonstop/B-flight_stop flights/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name EOS/O
+BOS/O what/O is/O airline/O wn/O EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative first/B-class_type class/I-class_type round/B-round_trip trip/I-round_trip from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word miami/B-toloc.city_name EOS/O
+BOS/O now/O show/O me/O all/O the/O round/B-round_trip trips/I-round_trip from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word miami/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative one/B-round_trip way/I-round_trip flight/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word houston/B-toloc.city_name EOS/O
+BOS/O now/O show/O me/O the/O cheapest/B-cost_relative one/B-round_trip way/I-round_trip flight/O from/B-from_word houston/B-fromloc.city_name to/B-to_word boston/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative round/B-round_trip trip/I-round_trip fares/O from/B-from_word houston/B-fromloc.city_name to/B-to_word boston/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative round/B-round_trip trip/I-round_trip fares/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word houston/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative round/B-round_trip trip/I-round_trip fare/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word houston/B-toloc.city_name on/B-on_word february/B-depart_date.month_name twenty/B-depart_date.day_number eighth/I-depart_date.day_number 1994/B-depart_date.year EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative one/B-round_trip way/I-round_trip fare/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word houston/B-toloc.city_name on/B-on_word february/B-depart_date.month_name twenty/B-depart_date.day_number eighth/I-depart_date.day_number 1994/B-depart_date.year EOS/O
+BOS/O now/O show/O me/O ground/O transportation/O in/O houston/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O now/O show/O me/O one/B-round_trip way/I-round_trip flights/O from/B-from_word houston/B-fromloc.city_name to/B-to_word boston/B-toloc.city_name EOS/O
+BOS/O and/O now/O show/O me/O ground/O transportation/O that/O i/O could/O get/O in/O boston/B-fromloc.city_name late/B-depart_time.period_mod night/B-depart_time.period_of_day EOS/O
+BOS/O show/O me/O airlines/O that/O have/O flights/O between/O toronto/B-fromloc.city_name and/O detroit/B-city_name between/O detroit/B-city_name and/O st./B-stoploc.city_name louis/I-stoploc.city_name and/O between/O st./B-stoploc.city_name louis/I-stoploc.city_name and/O toronto/B-fromloc.city_name EOS/O
+BOS/O show/O me/O round/B-round_trip trip/I-round_trip fares/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word detroit/B-toloc.city_name on/B-on_word delta/B-airline_name northwest/B-mod us/B-airline_name air/I-airline_name and/O united/B-airline_name airlines/I-airline_name EOS/O
+BOS/O show/O me/O flights/O between/O detroit/B-city_name and/O st./B-stoploc.city_name louis/I-stoploc.city_name on/B-on_word delta/B-airline_name northwest/B-mod us/B-airline_name air/I-airline_name and/O united/B-airline_name airlines/I-airline_name EOS/O
+BOS/O show/O me/O flights/O from/B-from_word montreal/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name and/O long/B-fromloc.city_name beach/I-fromloc.city_name EOS/O
+BOS/O show/O me/O flights/O from/B-from_word montreal/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O on/B-on_word friday/B-depart_date.day_name afternoon/B-depart_time.period_of_day in/O june/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name on/B-on_word saturday/B-depart_date.day_name evening/B-depart_time.period_of_day on/B-on_word us/B-airline_name air/I-airline_name EOS/O
+BOS/O i/O 'd/O like/O a/O red/B-flight_mod eye/I-flight_mod flight/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name on/B-on_word saturday/B-depart_date.day_name evening/B-depart_time.period_of_day on/B-on_word us/B-airline_name air/I-airline_name EOS/O
+BOS/O i/O 'd/O like/O a/O flight/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name on/B-on_word saturday/B-depart_date.day_name morning/B-depart_time.period_of_day on/B-on_word us/B-airline_name air/I-airline_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O what/O does/O ua/B-airline_code mean/O EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code on/B-on_word monday/B-depart_date.day_name night/B-depart_time.period_of_day EOS/O
+BOS/O how/O about/O flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code on/B-on_word tuesday/B-depart_date.day_name mornings/B-depart_time.period_of_day EOS/O
+BOS/O what/O meals/B-meal are/O there/O on/B-on_word flight/O 382/B-flight_number from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code on/B-on_word tuesday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O i/O 'll/O need/O to/B-to_word rent/O a/O car/B-transport_type in/O washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O can/O i/O get/O a/O flight/O on/B-on_word tuesday/B-depart_date.day_name night/B-depart_time.period_of_day from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word oakland/B-toloc.city_name EOS/O
+BOS/O how/O about/O from/B-from_word dc/B-fromloc.state_code to/B-to_word oakland/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O how/O much/O does/O it/O cost/O to/B-to_word fly/O on/B-on_word twa/B-airline_code from/B-from_word columbus/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O what/O does/O q/B-fare_basis_code mean/O EOS/O
+BOS/O how/O much/O does/O it/O cost/O to/B-to_word fly/O from/B-from_word columbus/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name round/B-round_trip trip/I-round_trip on/B-on_word twa/B-airline_code EOS/O
+BOS/O what/O 's/O the/O cheapest/B-cost_relative flight/O from/B-from_word columbus/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name round/B-round_trip trip/I-round_trip on/B-on_word twa/B-airline_code EOS/O
+BOS/O what/O 's/O the/O cheapest/B-cost_relative round/B-round_trip trip/I-round_trip flight/O on/B-on_word twa/B-airline_code from/B-from_word columbus/B-fromloc.city_name to/B-to_word st./B-toloc.city_name paul/I-toloc.city_name EOS/O
+BOS/O i/O want/O to/B-to_word fly/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O can/O i/O get/O the/O shortest/B-flight_mod flight/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O what/O is/O the/O shortest/B-flight_mod flight/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word long/B-toloc.city_name beach/I-toloc.city_name EOS/O
+BOS/O what/O does/O m/B-fare_basis_code mean/O EOS/O
+BOS/O what/O does/O ap/B-restriction_code 57/I-restriction_code mean/O EOS/O
+BOS/O what/O is/O the/O shortest/B-flight_mod flight/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word st./B-toloc.city_name petersburg/I-toloc.city_name EOS/O
+BOS/O what/O is/O the/O shortest/B-flight_mod flight/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word long/B-toloc.city_name beach/I-toloc.city_name EOS/O
+BOS/O what/O is/O the/O shortest/B-flight_mod flight/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O what/O does/O ap/B-restriction_code 20/I-restriction_code mean/O EOS/O
+BOS/O can/O i/O get/O a/O flight/O today/B-depart_date.today_relative from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word detroit/B-toloc.city_name michigan/B-toloc.state_name EOS/O
+BOS/O what/O 's/O the/O cheapest/B-cost_relative flight/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word detroit/B-toloc.city_name today/B-depart_date.today_relative EOS/O
+BOS/O i/O want/O to/B-to_word fly/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name and/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word denver/B-toloc.city_name EOS/O
+BOS/O what/O 's/O the/O cheapest/B-cost_relative flight/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O i/O need/O to/B-to_word rent/O a/O car/B-transport_type in/O milwaukee/B-stoploc.city_name EOS/O
+BOS/O what/O 's/O the/O cheapest/B-cost_relative flight/O tomorrow/B-depart_date.today_relative from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word denver/B-toloc.city_name EOS/O
+BOS/O what/O ground/O transportation/O is/O available/O at/B-at_word denver/B-city_name EOS/O
+BOS/O what/O 's/O the/O cheapest/B-cost_relative flight/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word denver/B-toloc.city_name EOS/O
+BOS/O what/O flights/O leave/O from/B-from_word cleveland/B-fromloc.city_name and/O go/O to/B-to_word dallas/B-toloc.city_name EOS/O
+BOS/O show/O me/O all/O nonstop/B-flight_stop flights/O from/B-from_word st./B-fromloc.city_name petersburg/I-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name EOS/O
+BOS/O what/O airline/O is/O us/B-airline_code EOS/O
+BOS/O show/O me/O flights/O between/O toronto/B-fromloc.city_name and/O san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O what/O is/O phl/O EOS/O
+BOS/O what/O is/O mci/O EOS/O
+BOS/O show/O me/O the/O flights/O between/O oakland/B-toloc.city_name and/O salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O what/O does/O not/O sa/B-days_code mean/O EOS/O
+BOS/O what/O is/O the/O earliest/B-flight_mod daily/B-flight_days flight/O between/O oakland/B-toloc.city_name and/O salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O what/O airline/O is/O dl/B-airline_code EOS/O
+BOS/O what/O is/O the/O latest/B-flight_mod daily/B-flight_days flight/O between/O oakland/B-toloc.city_name and/O salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O show/O me/O the/O flights/O between/O los/B-toloc.city_name angeles/I-toloc.city_name and/O dallas/B-stoploc.city_name EOS/O
+BOS/O what/O ground/O transportation/O is/O available/O from/B-from_word dallas/B-fromloc.airport_name fort/I-fromloc.airport_name worth/I-fromloc.airport_name airport/I-fromloc.airport_name to/B-to_word downtown/O dallas/B-stoploc.city_name EOS/O
+BOS/O how/O many/O passengers/O can/O an/O l1011/B-aircraft_code aircraft/O hold/O EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O of/O a/O dc9/B-aircraft_code EOS/O
+BOS/O what/O are/O the/O flights/O between/O dallas/B-stoploc.city_name and/O phoenix/B-fromloc.city_name EOS/O
+BOS/O what/O ground/O transportation/O is/O available/O between/O phoenix/B-airport_name airport/I-airport_name and/O downtown/O phoenix/B-fromloc.city_name EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O for/O the/O aircraft/O m80/B-aircraft_code EOS/O
+BOS/O are/O there/O any/O flights/O between/O dallas/B-stoploc.city_name and/O phoenix/B-fromloc.city_name using/O a/O dc10/B-aircraft_code aircraft/O EOS/O
+BOS/O what/O airline/O is/O aa/O EOS/O
+BOS/O show/O me/O the/O flights/O between/O milwaukee/B-stoploc.city_name and/O indiana/O EOS/O
+BOS/O what/O are/O the/O flights/O between/O milwaukee/B-stoploc.city_name and/O pittsburgh/B-fromloc.city_name EOS/O
+BOS/O what/O ground/O transportation/O is/O available/O between/O pittsburgh/B-fromloc.airport_name airport/I-fromloc.airport_name and/O downtown/O pittsburgh/B-fromloc.city_name EOS/O
+BOS/O show/O me/O the/O flights/O between/O pittsburgh/B-fromloc.city_name and/O washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O what/O ground/O transportation/O is/O available/O between/O dca/O and/O downtown/O washington/B-toloc.city_name EOS/O
+BOS/O what/O are/O the/O flights/O between/O dca/O and/O milwaukee/B-stoploc.city_name EOS/O
+BOS/O what/O ground/O transportation/O is/O available/O between/O milwaukee/B-airport_name airport/I-airport_name and/O downtown/O milwaukee/B-stoploc.city_name EOS/O
+BOS/O determine/O the/O type/O of/O aircraft/O used/O on/B-on_word a/O flight/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word dallas/B-toloc.city_name that/O leaves/O before/B-arrive_time.time_relative noon/B-arrive_time.time EOS/O
+BOS/O find/O a/O flight/O between/O st./B-fromloc.city_name petersburg/I-fromloc.city_name and/O charlotte/B-toloc.city_name the/O flight/O should/O leave/O in/O the/O afternoon/B-depart_time.period_of_day and/O arrive/O as/B-airline_code soon/O after/B-depart_time.time_relative 5/B-depart_time.time pm/I-depart_time.time as/O possible/O it/O should/O be/O a/O nonstop/B-flight_stop flight/O EOS/O
+BOS/O list/O a/O flight/O on/B-on_word delta/B-airline_name airlines/I-airline_name from/B-from_word toronto/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O list/O a/O flight/O on/B-on_word american/B-airline_name airlines/I-airline_name from/B-from_word toronto/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O list/O a/O flight/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name leaving/O after/B-arrive_time.time_relative 1700/B-arrive_time.time wednesday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name leaving/O after/B-depart_time.time_relative midnight/B-depart_time.period_of_day thursday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O between/O phoenix/B-fromloc.city_name and/O las/B-toloc.city_name vegas/I-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word denver/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code before/B-depart_time.time_relative 1200/B-depart_time.time EOS/O
+BOS/O list/O flights/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word pittsburgh/B-toloc.city_name leaving/O after/B-depart_time.time_relative 1800/B-depart_time.time EOS/O
+BOS/O list/O flights/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word pittsburgh/B-toloc.city_name EOS/O
+BOS/O list/O flights/O between/O pittsburgh/B-fromloc.city_name and/O milwaukee/B-stoploc.city_name EOS/O
+BOS/O i/O 'd/O like/O a/O flight/O to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code EOS/O
+BOS/O i/O 'd/O like/O to/B-to_word fly/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word dallas/B-toloc.city_name EOS/O
+BOS/O i/O want/O to/B-to_word fly/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word phoenix/B-toloc.city_name arizona/B-toloc.state_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word atlanta/B-toloc.city_name EOS/O
+BOS/O i/O would/O like/O to/B-to_word fly/O from/B-from_word atlanta/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O to/B-to_word fly/O from/B-from_word san/B-fromloc.city_name diego/I-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O i/O would/O like/O to/B-to_word fly/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word minneapolis/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word san/B-fromloc.city_name diego/I-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O i/O need/O a/O round/B-round_trip trip/I-round_trip flight/O from/B-from_word san/B-fromloc.city_name diego/I-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code and/O the/O fares/O EOS/O
+BOS/O i/O need/O a/O round/B-round_trip trip/I-round_trip from/B-from_word atlanta/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code and/O the/O fares/O leaving/O in/O the/O morning/B-depart_time.period_of_day EOS/O
+BOS/O i/O need/O a/O round/B-round_trip trip/I-round_trip from/B-from_word phoenix/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code and/O the/O fare/O leaving/O in/O the/O morning/B-depart_time.period_of_day EOS/O
+BOS/O what/O is/O the/O lowest/B-cost_relative fare/O for/O a/O flight/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word boston/B-toloc.city_name EOS/O
+BOS/O what/O is/O the/O lowest/B-cost_relative fare/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word montreal/B-toloc.city_name EOS/O
+BOS/O what/O is/O the/O lowest/B-cost_relative fare/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O i/O want/O a/O flight/O from/B-from_word montreal/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O i/O want/O a/O flight/O from/B-from_word nashville/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name that/O arrives/O no/B-arrive_time.time_relative later/I-arrive_time.time_relative than/I-arrive_time.time_relative 3/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O i/O want/O a/O flight/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name that/O arrives/O no/B-arrive_time.time_relative later/I-arrive_time.time_relative than/I-arrive_time.time_relative 3/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name arriving/O in/O seattle/B-toloc.city_name at/B-at_word 1205/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O i/O want/O a/O flight/O round/B-round_trip trip/I-round_trip from/B-from_word memphis/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O i/O want/O to/B-to_word fly/O from/B-from_word nashville/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name and/O i/O want/O the/O cheapest/B-cost_relative fare/O round/B-round_trip trip/I-round_trip EOS/O
+BOS/O i/O want/O to/B-to_word fly/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name round/B-round_trip trip/I-round_trip with/O the/O cheapest/B-cost_relative fare/O EOS/O
+BOS/O i/O want/O to/B-to_word fly/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name round/B-round_trip trip/I-round_trip with/O the/O cheapest/B-cost_relative fare/O EOS/O
+BOS/O please/O list/O flights/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word philadelphia/B-toloc.city_name EOS/O
+BOS/O please/O list/O flights/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name EOS/O
+BOS/O please/O list/O flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word philadelphia/B-toloc.city_name EOS/O
+BOS/O please/O list/O flights/O from/B-from_word philadelphia/B-fromloc.city_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name EOS/O
+BOS/O please/O show/O ground/O transportation/O to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O please/O list/O flights/O from/B-from_word san/B-fromloc.city_name francisco/I-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word houston/B-fromloc.city_name to/B-to_word denver/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word houston/B-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word houston/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word newark/B-fromloc.city_name to/B-to_word houston/B-toloc.city_name EOS/O
+BOS/O show/O flights/O from/B-from_word denver/B-fromloc.city_name to/B-to_word houston/B-toloc.city_name EOS/O
+BOS/O show/O flights/O from/B-from_word st./B-fromloc.city_name petersburg/I-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name EOS/O
+BOS/O show/O flights/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O show/O flights/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word minneapolis/B-toloc.city_name EOS/O
+BOS/O show/O flights/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O show/O flights/O from/B-from_word minneapolis/B-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O show/O flights/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word boston/B-toloc.city_name EOS/O
+BOS/O list/O fares/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word montreal/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word montreal/B-toloc.city_name EOS/O
+BOS/O list/O fares/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word toronto/B-toloc.city_name that/O should/O be/O good/O EOS/O
+BOS/O list/O fares/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word boston/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word montreal/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word toronto/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O list/O flights/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O what/O flights/O go/O from/B-from_word dallas/B-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name EOS/O
+BOS/O what/O flights/O go/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O i/O need/O an/O early/B-flight_mod flight/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word denver/B-toloc.city_name EOS/O
+BOS/O what/O types/O of/O ground/O transportation/O are/O available/O in/O denver/B-stoploc.city_name EOS/O
+BOS/O what/O flights/O go/O from/B-from_word denver/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name on/B-on_word tuesday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O is/O ground/O transportation/O available/O in/O st./B-stoploc.city_name louis/I-stoploc.city_name EOS/O
+BOS/O i/O need/O to/B-to_word fly/O from/B-from_word st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O flights/O from/B-from_word washington/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O flights/O from/B-from_word atlanta/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O flights/O from/B-from_word san/B-fromloc.city_name diego/I-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O i/O would/O like/O flight/O information/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word denver/B-toloc.city_name EOS/O
+BOS/O could/O i/O have/O flight/O information/O on/B-on_word flights/O from/B-from_word salt/B-fromloc.city_name lake/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name please/O EOS/O
+BOS/O could/O i/O have/O flight/O information/O on/B-on_word flights/O from/B-from_word pittsburgh/B-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name please/O EOS/O
+BOS/O i/O would/O like/O information/O on/B-on_word flights/O leaving/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word denver/B-toloc.city_name EOS/O
+BOS/O i/O need/O information/O on/B-on_word flights/O from/B-from_word washington/B-fromloc.city_name to/B-to_word boston/B-toloc.city_name that/O leave/O on/B-on_word a/O saturday/B-depart_date.day_name EOS/O
+BOS/O i/O need/O the/O flights/O from/B-from_word washington/B-fromloc.city_name to/B-to_word montreal/B-toloc.city_name on/B-on_word a/O saturday/B-depart_date.day_name EOS/O
+BOS/O i/O need/O the/O fares/O on/B-on_word flights/O from/B-from_word washington/B-fromloc.city_name to/B-to_word toronto/B-toloc.city_name on/B-on_word a/O saturday/B-depart_date.day_name EOS/O
+BOS/O i/O want/O to/B-to_word go/O from/B-from_word boston/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name on/B-on_word a/O saturday/B-depart_date.day_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word dallas/B-toloc.city_name that/O leaves/O before/B-arrive_time.time_relative noon/B-arrive_time.time see/O if/O too/O much/O information/O EOS/O
+BOS/O get/O fares/O from/B-from_word washington/B-fromloc.city_name to/B-to_word boston/B-toloc.city_name EOS/O
+BOS/O get/O saturday/B-depart_date.day_name fares/O from/B-from_word washington/B-fromloc.city_name to/B-to_word boston/B-toloc.city_name EOS/O
+BOS/O get/O fares/O from/B-from_word washington/B-fromloc.city_name to/B-to_word montreal/B-toloc.city_name EOS/O
+BOS/O get/O saturday/B-depart_date.day_name fares/O from/B-from_word washington/B-fromloc.city_name to/B-to_word montreal/B-toloc.city_name EOS/O
+BOS/O get/O saturday/B-depart_date.day_name fares/O from/B-from_word washington/B-fromloc.city_name to/B-to_word toronto/B-toloc.city_name EOS/O
+BOS/O get/O the/O saturday/B-depart_date.day_name fare/O from/B-from_word washington/B-fromloc.city_name to/B-to_word toronto/B-toloc.city_name EOS/O
+BOS/O list/O saturday/B-depart_date.day_name flights/O from/B-from_word washington/B-fromloc.city_name to/B-to_word boston/B-toloc.city_name EOS/O
+BOS/O list/O saturday/B-depart_date.day_name flights/O from/B-from_word boston/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name EOS/O
+BOS/O get/O flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word dtw/O EOS/O
+BOS/O list/O flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word detroit/B-toloc.city_name EOS/O
+BOS/O get/O flights/O from/B-from_word detroit/B-fromloc.city_name to/B-to_word toronto/B-toloc.city_name EOS/O
+BOS/O get/O flights/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O get/O last/B-flight_mod flight/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name or/B-or first/B-flight_mod flight/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name on/B-on_word thursday/B-depart_date.day_name EOS/O
+BOS/O get/O first/B-flight_mod flight/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name on/B-on_word thursday/B-depart_date.day_name EOS/O
+BOS/O get/O last/B-flight_mod flight/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name EOS/O
+BOS/O list/O last/O wednesday/B-depart_date.day_name flight/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O get/O flight/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name stopping/O at/B-at_word dtw/O EOS/O
+BOS/O get/O flights/O between/O st./B-fromloc.city_name petersburg/I-fromloc.city_name and/O charlotte/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word indianapolis/B-toloc.city_name leaving/O monday/B-depart_date.day_name before/B-depart_time.time_relative 9/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O i/O need/O a/O flight/O departing/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word indianapolis/B-toloc.city_name leaving/O monday/B-depart_date.day_name before/B-depart_time.time_relative 8/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O is/O there/O ground/O transportation/O available/O at/B-at_word the/O indianapolis/B-airport_name airport/I-airport_name EOS/O
+BOS/O i/O need/O flight/O information/O for/O a/O flight/O departing/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name departing/O tuesday/B-depart_date.day_name at/B-at_word noon/B-depart_time.time EOS/O
+BOS/O i/O need/O flight/O information/O for/O a/O flight/O departing/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name wednesday/B-depart_date.day_name after/B-depart_time.time_relative 6/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O i/O need/O flight/O information/O for/O flights/O departing/O from/B-from_word cleveland/B-fromloc.city_name going/O back/O to/B-to_word milwaukee/B-toloc.city_name wednesday/B-depart_date.day_name after/B-depart_time.time_relative 5/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O i/O need/O flight/O information/O for/O flights/O departing/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name after/B-depart_time.time_relative 5/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O i/O need/O flight/O information/O for/O flights/O departing/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name after/B-depart_time.time_relative 5/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word denver/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name on/B-on_word monday/B-depart_date.day_name EOS/O
+BOS/O is/O there/O ground/O transportation/O available/O at/B-at_word the/O denver/B-airport_name airport/I-airport_name EOS/O
+BOS/O i/O need/O flight/O and/O airline/O information/O for/O a/O flight/O from/B-from_word denver/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name on/B-on_word monday/B-depart_date.day_name departing/O after/B-depart_time.time_relative 5/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O is/O there/O ground/O transportation/O available/O at/B-at_word the/O salt/B-airport_name lake/I-airport_name city/I-airport_name airport/I-airport_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word salt/B-fromloc.city_name lake/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name departing/O wednesday/B-depart_date.day_name after/B-depart_time.time_relative 5/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O is/O there/O ground/O transportation/O available/O at/B-at_word the/O phoenix/B-airport_name airport/I-airport_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name departing/O after/B-depart_time.time_relative 6/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O i/O need/O flight/O and/O fare/O information/O for/O thursday/B-depart_date.day_name departing/O prior/O to/B-to_word 9/B-depart_time.time am/I-depart_time.time from/B-from_word oakland/B-fromloc.city_name going/O to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O i/O need/O flight/O and/O fare/O information/O departing/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name on/B-on_word thursday/B-depart_date.day_name before/B-depart_time.time_relative 8/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O i/O need/O flight/O numbers/O and/O airlines/O for/O flights/O departing/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name on/B-on_word thursday/B-depart_date.day_name departing/O before/B-depart_time.time_relative 8/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O i/O need/O flight/O numbers/O for/O those/O flights/O departing/O on/B-on_word thursday/B-depart_date.day_name before/B-depart_time.time_relative 8/B-depart_time.time am/I-depart_time.time from/B-from_word oakland/B-fromloc.city_name going/O to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O list/O airports/O in/O arizona/B-toloc.city_name nevada/B-toloc.state_name and/O california/O please/O EOS/O
+BOS/O list/O california/B-toloc.city_name nevada/B-toloc.state_name arizona/I-toloc.state_name airports/O EOS/O
+BOS/O list/O the/O arizona/B-airport_name airport/I-airport_name EOS/O
+BOS/O list/O california/O airports/O EOS/O
+BOS/O list/O flights/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name EOS/O
+BOS/O list/O california/O airports/O EOS/O
+BOS/O list/O airports/O EOS/O
+BOS/O list/O wednesday/B-depart_date.day_name night/B-depart_time.period_of_day flights/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word oakland/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name before/B-depart_time.time_relative 6/B-depart_time.time am/I-depart_time.time thursday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O which/O airlines/O fly/O between/O toronto/B-fromloc.city_name and/O san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O please/O list/O afternoon/B-depart_time.period_of_day flights/O between/O st./B-fromloc.city_name petersburg/I-fromloc.city_name and/O charlotte/B-toloc.city_name EOS/O
+BOS/O what/O is/O tpa/O EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word dallas/B-toloc.city_name EOS/O
+BOS/O please/O list/O only/O the/O flights/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word dallas/B-toloc.city_name that/O leave/O before/B-arrive_time.time_relative noon/B-arrive_time.time EOS/O
+BOS/O what/O type/O of/O aircraft/O are/O flying/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word dallas/B-toloc.city_name before/B-arrive_time.time_relative noon/B-arrive_time.time EOS/O
+BOS/O i/O need/O information/O on/B-on_word flights/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O ticket/O from/B-from_word nashville/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O ticket/O from/B-from_word nashville/B-fromloc.city_name tennessee/B-fromloc.state_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O i/O need/O flight/O information/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word tampa/B-toloc.city_name EOS/O
+BOS/O i/O need/O to/B-to_word rent/O a/O car/B-transport_type at/B-at_word tampa/B-city_name EOS/O
+BOS/O i/O need/O a/O daily/B-flight_days flight/O from/B-from_word st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O i/O need/O flights/O departing/O from/B-from_word oakland/B-fromloc.city_name and/O arriving/O salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O i/O need/O information/O on/B-on_word flights/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O i/O need/O information/O on/B-on_word flights/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O i/O want/O a/O flight/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O i/O need/O information/O on/B-on_word flights/O between/O st./B-fromloc.city_name petersburg/I-fromloc.city_name and/O charlotte/B-toloc.city_name EOS/O
+BOS/O i/O need/O the/O flight/O numbers/O of/O flights/O leaving/O from/B-from_word cleveland/B-fromloc.city_name and/O arriving/O at/B-at_word dallas/B-city_name EOS/O
+BOS/O which/O flights/O go/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word miami/B-toloc.city_name and/O back/O EOS/O
+BOS/O what/O does/O fare/O code/O qo/B-fare_basis_code mean/O EOS/O
+BOS/O show/O me/O flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name one/B-round_trip way/I-round_trip EOS/O
+BOS/O what/O the/O abbreviation/O us/B-airline_code stand/O for/O EOS/O
+BOS/O i/O 'd/O like/O a/O one/B-round_trip way/I-round_trip ticket/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name either/O wednesday/B-depart_date.day_name evening/B-depart_time.period_of_day or/B-or thursday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O show/O me/O flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O what/O does/O fare/O code/O f/B-fare_basis_code mean/O EOS/O
+BOS/O what/O does/O fare/O code/O h/B-fare_basis_code mean/O EOS/O
+BOS/O what/O does/O fare/O code/O y/B-fare_basis_code mean/O EOS/O
+BOS/O what/O are/O restrictions/O ap/B-restriction_code 57/I-restriction_code EOS/O
+BOS/O please/O show/O me/O first/B-class_type class/I-class_type flights/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name one/B-round_trip way/I-round_trip leaving/O before/B-depart_time.time_relative 10/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O now/O show/O me/O all/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name that/O arrive/O before/B-arrive_time.time_relative 7/B-arrive_time.time pm/I-arrive_time.time in/O seattle/B-city_name EOS/O
+BOS/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word montreal/B-toloc.city_name please/O EOS/O
+BOS/O what/O airline/O is/O dl/B-airline_code EOS/O
+BOS/O show/O me/O all/O delta/B-airline_name airlines/I-airline_name flights/O from/B-from_word montreal/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O show/O me/O all/O flights/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word montreal/B-toloc.city_name please/O EOS/O
+BOS/O which/O airline/O is/O kw/O EOS/O
+BOS/O please/O list/O all/O flights/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word miami/B-toloc.city_name any/O any/O type/O of/O class/O EOS/O
+BOS/O what/O does/O fare/O code/O bh/O mean/O EOS/O
+BOS/O show/O me/O a/O return/O flight/O from/B-from_word miami/B-fromloc.city_name to/B-to_word jfk/B-toloc.airport_code please/O EOS/O
+BOS/O what/O does/O fare/O code/O bh/O mean/O EOS/O
+BOS/O what/O does/O fare/O code/O bh/O mean/O EOS/O
+BOS/O what/O does/O fare/O code/O bh/O mean/O EOS/O
+BOS/O what/O does/O fare/O code/O bh/O mean/O EOS/O
+BOS/O show/O me/O one/B-round_trip way/I-round_trip flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name after/B-depart_time.time_relative 6/B-depart_time.time pm/I-depart_time.time on/B-on_word wednesday/B-depart_date.day_name EOS/O
+BOS/O show/O me/O the/O flights/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name EOS/O
+BOS/O show/O me/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O show/O me/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word montreal/B-toloc.city_name EOS/O
+BOS/O show/O me/O nonstop/B-flight_stop flights/O from/B-from_word montreal/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O show/O me/O round/B-round_trip trips/I-round_trip between/O montreal/B-toloc.city_name and/O orlando/B-toloc.city_name EOS/O
+BOS/O show/O me/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word montreal/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative one/B-round_trip way/I-round_trip flights/O from/B-from_word montreal/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative one/B-round_trip way/I-round_trip flights/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word montreal/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O cheapest/B-cost_relative economy/B-economy flights/O from/B-from_word miami/B-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name EOS/O
+BOS/O kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name economy/B-economy EOS/O
+BOS/O kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name economy/B-economy EOS/O
+BOS/O what/O airline/O is/O hp/B-airline_code EOS/O
+BOS/O ground/O transportation/O in/O las/B-toloc.city_name vegas/I-toloc.city_name EOS/O
+BOS/O ground/O transportation/O for/O las/B-toloc.city_name vegas/I-toloc.city_name EOS/O
+BOS/O las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word baltimore/B-toloc.city_name economy/B-economy EOS/O
+BOS/O las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word baltimore/B-toloc.city_name economy/B-economy EOS/O
+BOS/O baltimore/B-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name economy/B-economy EOS/O
+BOS/O what/O airline/O is/O us/B-airline_code EOS/O
+BOS/O which/O airline/O is/O us/B-airline_code EOS/O
+BOS/O which/O airline/O is/O us/B-airline_code EOS/O
+BOS/O which/O airline/O is/O us/B-airline_code EOS/O
+BOS/O which/O airline/O is/O us/B-airline_code EOS/O
+BOS/O columbus/B-fromloc.city_name to/B-to_word chicago/B-toloc.city_name one/B-round_trip way/I-round_trip before/B-depart_time.time_relative 10/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O what/O airline/O is/O hp/B-airline_code EOS/O
+BOS/O st./B-fromloc.city_name petersburg/I-fromloc.city_name to/B-to_word detroit/B-toloc.city_name EOS/O
+BOS/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name one/B-round_trip way/I-round_trip after/B-depart_time.time_relative 5/B-depart_time.time pm/I-depart_time.time wednesday/B-depart_date.day_name EOS/O
+BOS/O and/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word atlanta/B-toloc.city_name before/B-depart_time.time_relative 10/B-depart_time.time am/I-depart_time.time daily/B-flight_days EOS/O
+BOS/O what/O airline/O is/O yx/O EOS/O
+BOS/O show/O me/O all/O flights/O from/B-from_word san/B-fromloc.city_name jose/I-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name EOS/O
+BOS/O show/O me/O all/O flights/O from/B-from_word san/B-fromloc.city_name jose/I-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name EOS/O
+BOS/O what/O airline/O is/O hp/B-airline_code EOS/O
+BOS/O show/O me/O ground/O transportation/O in/O phoenix/B-fromloc.city_name EOS/O
+BOS/O show/O me/O flights/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word fort/B-toloc.city_name worth/I-toloc.city_name EOS/O
+BOS/O show/O me/O ground/O transportation/O in/O fort/B-city_name worth/I-city_name EOS/O
+BOS/O show/O me/O flights/O from/B-from_word fort/B-fromloc.city_name worth/I-fromloc.city_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name EOS/O
+BOS/O show/O me/O first/B-class_type class/I-class_type flights/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word miami/B-toloc.city_name round/B-round_trip trip/I-round_trip EOS/O
+BOS/O show/O me/O first/B-class_type class/I-class_type flights/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word miami/B-toloc.city_name round/B-round_trip trip/I-round_trip EOS/O
+BOS/O show/O me/O all/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word miami/B-toloc.city_name nonstop/B-flight_stop EOS/O
+BOS/O show/O me/O all/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word miami/B-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name nonstop/B-flight_stop EOS/O
+BOS/O show/O me/O one/B-round_trip way/I-round_trip flights/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name before/B-depart_time.time_relative 10/B-depart_time.time am/I-depart_time.time on/B-on_word any/O day/O EOS/O
+BOS/O what/O does/O fare/O code/O f/B-fare_basis_code mean/O EOS/O
+BOS/O show/O me/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name EOS/O
+BOS/O what/O does/O the/O restriction/O ap58/B-aircraft_code mean/O EOS/O
+BOS/O what/O does/O fare/O code/O h/B-fare_basis_code mean/O EOS/O
+BOS/O what/O airline/O is/O as/B-airline_code EOS/O
+BOS/O what/O airline/O is/O as/B-airline_code EOS/O
+BOS/O what/O airline/O is/O as/B-airline_code EOS/O
+BOS/O what/O airline/O is/O as/B-airline_code as/O in/O sam/O EOS/O
+BOS/O show/O me/O nonstop/B-flight_stop flights/O from/B-from_word st./B-fromloc.city_name petersburg/I-fromloc.city_name to/B-to_word toronto/B-toloc.city_name EOS/O
+BOS/O show/O me/O nonstop/B-flight_stop flights/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word st./B-toloc.city_name petersburg/I-toloc.city_name EOS/O
+BOS/O show/O me/O the/O nonstop/B-flight_stop flights/O and/O fares/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word st./B-toloc.city_name petersburg/I-toloc.city_name EOS/O
+BOS/O show/O me/O the/O nonstop/B-flight_stop flights/O from/B-from_word toronto/B-fromloc.city_name to/B-to_word st./B-toloc.city_name petersburg/I-toloc.city_name EOS/O
+BOS/O show/O me/O weekday/B-flight_mod flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name one/B-round_trip way/I-round_trip EOS/O
+BOS/O show/O me/O weekday/B-flight_mod flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name one/B-round_trip way/I-round_trip EOS/O
+BOS/O what/O airline/O is/O hp/B-airline_code EOS/O
+BOS/O list/O flights/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word denver/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word denver/B-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name in/O the/O morning/B-depart_time.period_of_day EOS/O
+BOS/O list/O flights/O from/B-from_word houston/B-fromloc.city_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word houston/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O from/B-from_word san/B-fromloc.city_name jose/I-fromloc.city_name to/B-to_word dallas/B-toloc.city_name on/B-on_word friday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O from/B-from_word dallas/B-fromloc.city_name to/B-to_word houston/B-toloc.city_name EOS/O
+BOS/O list/O distance/O from/B-from_word airports/O to/B-to_word downtown/O in/O new/B-fromloc.city_name york/I-fromloc.city_name EOS/O
+BOS/O list/O airports/O in/O new/B-fromloc.city_name york/I-fromloc.city_name EOS/O
+BOS/O list/O airports/O in/O new/B-fromloc.city_name york/I-fromloc.city_name EOS/O
+BOS/O list/O airports/O in/O la/B-fromloc.city_name EOS/O
+BOS/O list/O airports/O EOS/O
+BOS/O list/O airports/O in/O la/B-fromloc.city_name EOS/O
+BOS/O list/O airports/O in/O la/B-fromloc.city_name EOS/O
+BOS/O list/O the/O airports/O in/O la/B-fromloc.city_name EOS/O
+BOS/O list/O la/B-fromloc.city_name EOS/O
+BOS/O list/O la/B-fromloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word la/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word la/B-fromloc.airport_name guardia/I-fromloc.airport_name to/B-to_word burbank/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word la/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word ontario/B-fromloc.city_name california/B-fromloc.state_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word ontario/B-fromloc.city_name california/B-fromloc.state_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name with/O fares/O on/B-on_word monday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word miami/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O from/B-from_word miami/B-fromloc.city_name to/B-to_word indianapolis/B-toloc.city_name on/B-on_word sunday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O from/B-from_word charlotte/B-fromloc.city_name on/B-on_word saturday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O list/O type/O of/O aircraft/O for/O all/O flights/O from/B-from_word charlotte/B-fromloc.city_name EOS/O
+BOS/O list/O flights/O and/O fares/O from/B-from_word tacoma/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name round/B-round_trip trip/I-round_trip leaving/O saturday/B-depart_date.day_name returning/O next/B-depart_date.date_relative saturday/B-depart_date.day_name EOS/O
+BOS/O what/O class/O is/O fare/O code/O q/B-fare_basis_code EOS/O
+BOS/O list/O flights/O from/B-from_word orlando/B-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name on/B-on_word saturday/B-depart_date.day_name of/O fare/O basis/O code/O of/O q/B-fare_basis_code EOS/O
+BOS/O list/O airfares/O for/O first/B-class_type class/I-class_type round/B-round_trip trip/I-round_trip from/B-from_word detroit/B-fromloc.city_name to/B-to_word st./B-toloc.city_name petersburg/I-toloc.city_name EOS/O
+BOS/O list/O coach/B-class_type round/B-round_trip trip/I-round_trip airfare/O from/B-from_word detroit/B-fromloc.city_name to/B-to_word st./B-toloc.city_name petersburg/I-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word pittsburgh/B-fromloc.city_name to/B-to_word newark/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O list/O flights/O from/B-from_word minneapolis/B-fromloc.city_name to/B-to_word pittsburgh/B-toloc.city_name on/B-on_word friday/B-depart_date.day_name EOS/O
+BOS/O list/O flights/O before/B-depart_time.time_relative 9/B-depart_time.time am/I-depart_time.time from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word tampa/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word tampa/B-toloc.city_name before/B-arrive_time.time_relative noon/B-arrive_time.time EOS/O
+BOS/O list/O flights/O from/B-from_word tampa/B-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name after/B-depart_time.time_relative 3/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O list/O airlines/O that/O fly/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O list/O delta/B-airline_name flights/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O list/O seating/O capacities/O of/O delta/B-airline_name flights/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O list/O delta/B-airline_name flights/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name with/O aircraft/O type/O EOS/O
+BOS/O what/O ground/O transportation/O is/O there/O in/O baltimore/B-toloc.city_name EOS/O
+BOS/O list/O ground/O transportation/O in/O baltimore/B-toloc.city_name EOS/O
+BOS/O list/O flights/O from/B-from_word baltimore/B-fromloc.city_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name on/B-on_word friday/B-depart_date.day_name EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word los/B-fromloc.city_name angeles/I-fromloc.city_name to/B-to_word pittsburgh/B-toloc.city_name on/B-on_word tuesday/B-depart_date.day_name EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word pittsburgh/B-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name thursday/B-depart_date.day_name evening/B-depart_time.period_of_day EOS/O
+BOS/O give/O me/O the/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word miami/B-toloc.city_name next/B-depart_date.date_relative wednesday/B-depart_date.day_name EOS/O
+BOS/O give/O me/O the/O fares/O for/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word cleveland/B-fromloc.city_name to/B-to_word miami/B-toloc.city_name next/B-depart_date.date_relative wednesday/B-depart_date.day_name EOS/O
+BOS/O give/O me/O the/O flights/O and/O fares/O for/O a/O trip/O to/B-to_word cleveland/B-toloc.city_name from/B-from_word miami/B-fromloc.city_name on/B-on_word wednesday/B-depart_date.day_name EOS/O
+BOS/O give/O me/O the/O fares/O from/B-from_word miami/B-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name next/B-depart_date.date_relative sunday/B-depart_date.day_name EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name on/B-on_word saturday/B-depart_date.day_name or/B-or sunday/B-depart_date.day_name on/B-on_word american/B-airline_name airlines/I-airline_name EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name evening/B-depart_time.period_of_day EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name on/B-on_word american/B-airline_name airlines/I-airline_name EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name on/B-on_word american/B-airline_name airlines/I-airline_name EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O give/O me/O the/O meal/B-meal flights/O departing/O early/B-depart_time.period_mod saturday/B-depart_date.day_name morning/B-depart_time.period_of_day from/B-from_word chicago/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name nonstop/B-flight_stop EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name saturday/B-depart_date.day_name morning/B-depart_time.period_of_day that/O have/O meals/B-meal EOS/O
+BOS/O give/O me/O flights/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word chicago/B-toloc.city_name that/O have/O meals/B-meal on/B-on_word continental/B-airline_name EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word chicago/B-toloc.city_name that/O have/O meals/B-meal on/B-on_word continental/B-airline_name saturday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name on/B-on_word continental/B-airline_name that/O have/O meals/B-meal early/B-depart_time.period_mod saturday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O give/O me/O a/O combination/O of/O continental/B-airline_name flights/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name that/O have/O meals/B-meal early/B-depart_time.period_mod saturday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O give/O me/O the/O saturday/B-depart_date.day_name morning/B-depart_time.period_of_day flights/O with/O meals/B-meal from/B-from_word chicago/B-fromloc.city_name to/B-to_word minneapolis/B-toloc.city_name EOS/O
+BOS/O give/O me/O the/O saturday/B-depart_date.day_name morning/B-depart_time.period_of_day flights/O on/B-on_word continental/B-airline_name that/O have/O meals/B-meal from/B-from_word chicago/B-fromloc.city_name to/B-to_word minneapolis/B-toloc.city_name EOS/O
+BOS/O give/O me/O the/O saturday/B-depart_date.day_name morning/B-depart_time.period_of_day flights/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word st./B-toloc.city_name paul/I-toloc.city_name on/B-on_word continental/B-airline_name that/O have/O meals/B-meal EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name nonstop/B-flight_stop EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name nonstop/B-flight_stop EOS/O
+BOS/O give/O me/O the/O cheapest/B-cost_relative round/B-round_trip trip/I-round_trip flights/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name around/I-toloc.city_name december/B-depart_date.month_name twenty/B-depart_date.day_number fifth/I-depart_date.day_number EOS/O
+BOS/O i/O need/O a/O friday/B-depart_date.day_name flight/O from/B-from_word newark/B-fromloc.city_name to/B-to_word tampa/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O sunday/B-depart_date.day_name flight/O from/B-from_word tampa/B-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name EOS/O
+BOS/O give/O me/O a/O flight/O from/B-from_word charlotte/B-fromloc.city_name to/B-to_word baltimore/B-toloc.city_name on/B-on_word tuesday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O can/O i/O have/O a/O morning/B-depart_time.period_of_day flight/O from/B-from_word baltimore/B-fromloc.city_name to/B-to_word newark/B-toloc.city_name please/O EOS/O
+BOS/O cheapest/B-cost_relative round/B-round_trip trip/I-round_trip fare/O from/B-from_word or/O indianapolis/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name on/B-on_word december/B-depart_date.month_name twenty/B-depart_date.day_number fifth/I-depart_date.day_number EOS/O
+BOS/O cheapest/B-cost_relative one/B-round_trip way/I-round_trip fare/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name on/B-on_word december/B-depart_date.month_name twenty/B-depart_date.day_number seventh/I-depart_date.day_number EOS/O
+BOS/O flight/O number/O from/B-from_word dallas/B-fromloc.city_name to/B-to_word houston/B-toloc.city_name EOS/O
+BOS/O flight/O number/O from/B-from_word houston/B-fromloc.city_name to/B-to_word dallas/B-toloc.city_name EOS/O
+BOS/O saturday/B-depart_date.day_name flight/O on/B-on_word american/B-airline_name airlines/I-airline_name from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name EOS/O
+BOS/O flight/O numbers/O on/B-on_word american/B-airline_name airlines/I-airline_name from/B-from_word phoenix/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O flight/O numbers/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O flight/O numbers/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name on/B-on_word continental/B-airline_name EOS/O
+BOS/O flight/O numbers/O from/B-from_word seattle/B-fromloc.city_name to/B-to_word chicago/B-toloc.city_name on/B-on_word continental/B-airline_name EOS/O
+BOS/O is/O there/O a/O fare/O from/B-from_word pittsburgh/B-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name under/B-cost_relative 200/B-fare_amount dollars/I-fare_amount EOS/O
+BOS/O how/O much/O is/O coach/B-class_type flight/O from/B-from_word pittsburgh/B-fromloc.city_name to/B-to_word atlanta/B-toloc.city_name EOS/O
+BOS/O newark/B-fromloc.city_name to/B-to_word tampa/B-toloc.city_name on/B-on_word friday/B-depart_date.day_name EOS/O
+BOS/O tampa/B-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name sunday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O charlotte/B-fromloc.city_name to/B-to_word baltimore/B-toloc.city_name on/B-on_word tuesday/B-depart_date.day_name EOS/O
+BOS/O baltimore/B-fromloc.city_name to/B-to_word newark/B-toloc.city_name wednesday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O dallas/B-fromloc.city_name to/B-to_word houston/B-toloc.city_name after/B-depart_time.time_relative 1201/B-depart_time.time am/I-depart_time.time EOS/O
+BOS/O houston/B-fromloc.city_name to/B-to_word dallas/B-toloc.city_name before/B-depart_time.time_relative midnight/B-depart_time.period_of_day EOS/O
+BOS/O indianapolis/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name december/B-depart_date.month_name twenty/B-depart_date.day_number seventh/I-depart_date.day_number EOS/O
+BOS/O cheapest/B-cost_relative fare/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name on/B-on_word the/O twenty/B-depart_date.day_number seventh/I-depart_date.day_number of/O december/B-depart_date.month_name EOS/O
+BOS/O cheapest/B-cost_relative fare/O round/B-round_trip trip/I-round_trip from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name on/B-on_word december/B-depart_date.month_name twenty/B-depart_date.day_number seventh/I-depart_date.day_number EOS/O
+BOS/O cleveland/B-fromloc.city_name to/B-to_word miami/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name arriving/O before/B-arrive_time.time_relative 4/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O miami/B-fromloc.city_name to/B-to_word cleveland/B-toloc.city_name sunday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O new/B-fromloc.city_name york/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name and/O memphis/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name on/B-on_word sunday/B-depart_date.day_name EOS/O
+BOS/O new/B-fromloc.city_name york/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name and/O memphis/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name on/B-on_word sunday/B-depart_date.day_name EOS/O
+BOS/O new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name sunday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O memphis/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name sunday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O new/B-fromloc.city_name york/I-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name on/B-on_word sunday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O chicago/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name saturday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O chicago/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name saturday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O los/B-fromloc.city_name angeles/I-fromloc.city_name to/B-to_word pittsburgh/B-toloc.city_name afternoon/B-depart_time.period_of_day tuesday/B-depart_date.day_name EOS/O
+BOS/O los/B-fromloc.city_name angeles/I-fromloc.city_name to/B-to_word pittsburgh/B-toloc.city_name afternoon/B-depart_time.period_of_day on/B-on_word monday/B-depart_date.day_name EOS/O
+BOS/O pittsburgh/B-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name thursday/B-depart_date.day_name evening/B-depart_time.period_of_day EOS/O
+BOS/O milwaukee/B-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name on/B-on_word saturday/B-depart_date.day_name EOS/O
+BOS/O phoenix/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name on/B-on_word sunday/B-depart_date.day_name EOS/O
+BOS/O phoenix/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name EOS/O
+BOS/O a/O flight/O from/B-from_word baltimore/B-fromloc.city_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name arriving/O between/O 5/B-arrive_time.start_time and/O 8/B-arrive_time.end_time pm/I-arrive_time.end_time EOS/O
+BOS/O how/O many/O northwest/B-airline_name flights/O leave/O st./B-city_name paul/I-city_name EOS/O
+BOS/O how/O many/O northwest/B-airline_name flights/O leave/O washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O how/O many/O flights/O does/O northwest/B-airline_name have/O leaving/O dulles/B-fromloc.airport_name EOS/O
+BOS/O what/O cities/O does/O northwest/B-airline_name fly/O out/O of/O EOS/O
+BOS/O list/O the/O cities/O from/B-from_word which/O northwest/B-airline_name flies/O EOS/O
+BOS/O what/O cities/O does/O northwest/B-airline_name fly/O to/B-to_word EOS/O
+BOS/O i/O would/O like/O a/O connecting/B-connect flight/O from/B-from_word dallas/B-fromloc.city_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name leaving/O after/B-depart_time.time_relative 4/B-depart_time.time o'clock/I-depart_time.time EOS/O
+BOS/O please/O list/O all/O the/O flights/O from/B-from_word dallas/B-fromloc.city_name to/B-to_word san/B-toloc.city_name francisco/I-toloc.city_name EOS/O
+BOS/O tell/O me/O again/O the/O morning/B-depart_time.period_of_day flights/O on/B-on_word american/B-airline_name airlines/I-airline_name from/B-from_word philadelphia/B-fromloc.city_name to/B-to_word dallas/B-toloc.city_name EOS/O
+BOS/O tell/O me/O the/O flights/O that/O leave/O philadelphia/B-toloc.city_name and/O go/O to/B-to_word dallas/B-toloc.city_name EOS/O
+BOS/O what/O is/O a/O d9s/B-aircraft_code EOS/O
+BOS/O what/O type/O of/O plane/O is/O a/O d9s/B-aircraft_code EOS/O
+BOS/O what/O is/O a/O d9s/B-aircraft_code EOS/O
+BOS/O show/O me/O the/O airports/O serviced/O by/O tower/B-airline_name air/I-airline_name EOS/O
+BOS/O show/O me/O the/O first/B-class_type class/I-class_type and/O coach/B-class_type flights/O between/O jfk/B-toloc.airport_code and/O orlando/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O first/B-class_type class/I-class_type and/O coach/B-class_type flights/O from/B-from_word kennedy/B-fromloc.airport_name airport/I-fromloc.airport_name to/B-to_word miami/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O first/B-class_type class/I-class_type and/O coach/B-class_type flights/O from/B-from_word jfk/B-fromloc.airport_code to/B-to_word miami/B-toloc.city_name EOS/O
+BOS/O are/O meals/B-meal ever/O served/O on/B-on_word tower/B-airline_name air/I-airline_name EOS/O
+BOS/O are/O snacks/O served/O on/B-on_word tower/B-airline_name air/I-airline_name EOS/O
+BOS/O show/O delta/B-airline_name airlines/I-airline_name flights/O from/B-from_word jfk/B-fromloc.airport_code to/B-to_word miami/B-toloc.city_name EOS/O
+BOS/O show/O delta/B-airline_name airlines/I-airline_name from/B-from_word boston/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name EOS/O
+BOS/O show/O delta/B-airline_name airlines/I-airline_name flights/O from/B-from_word boston/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name EOS/O
+BOS/O show/O delta/B-airline_name airlines/I-airline_name flights/O from/B-from_word boston/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O what/O are/O the/O fares/O for/O flights/O between/O boston/B-fromloc.city_name and/O washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O what/O is/O the/O least/B-cost_relative expensive/I-cost_relative fare/O from/B-from_word boston/B-fromloc.city_name to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O what/O are/O the/O lowest/B-cost_relative fares/O from/B-from_word washington/B-fromloc.city_name dc/B-fromloc.state_code to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O what/O is/O the/O lowest/B-cost_relative fare/O from/B-from_word bwi/B-fromloc.airport_code to/B-to_word salt/B-toloc.city_name lake/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O show/O me/O the/O cost/O of/O a/O first/B-class_type class/I-class_type ticket/O from/B-from_word detroit/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name and/O back/O EOS/O
+BOS/O what/O is/O the/O earliest/B-flight_mod arriving/O flight/O from/B-from_word boston/B-fromloc.city_name to/B-to_word washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O what/O is/O the/O earliest/B-flight_mod arriving/O flight/O between/O boston/B-fromloc.city_name and/O washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O what/O 's/O the/O earliest/B-flight_mod arriving/O flight/O between/O boston/B-fromloc.city_name and/O washington/B-toloc.city_name dc/B-toloc.state_code EOS/O
+BOS/O what/O is/O the/O earliest/B-flight_mod arriving/O flight/O from/B-from_word houston/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O what/O is/O the/O earliest/B-flight_mod arriving/O flight/O from/B-from_word houston/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O flights/O between/O houston/B-toloc.city_name and/O orlando/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O flights/O between/O houston/B-toloc.city_name and/O orlando/B-toloc.city_name EOS/O
+BOS/O show/O me/O the/O flights/O from/B-from_word houston/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name EOS/O
+BOS/O list/O all/O flights/O leaving/O denver/B-stoploc.city_name between/O 8/B-arrive_time.end_time pm/I-arrive_time.end_time and/O 9/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O on/B-on_word the/O aircraft/O 733/B-aircraft_code EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O of/O a/O 72s/B-aircraft_code EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O of/O the/O aircraft/O 72s/B-aircraft_code EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O of/O the/O aircraft/O m80/B-aircraft_code EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O of/O the/O type/O of/O aircraft/O m80/B-aircraft_code EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O of/O an/O m80/B-aircraft_code EOS/O
+BOS/O what/O airlines/O serve/O denver/B-stoploc.city_name EOS/O
+BOS/O list/O the/O airlines/O with/O flights/O to/B-to_word or/O from/B-from_word denver/B-fromloc.city_name EOS/O
+BOS/O what/O airlines/O fly/O into/O denver/B-stoploc.city_name EOS/O
+BOS/O list/O all/O flights/O arriving/O in/O denver/B-stoploc.city_name between/O 8/B-depart_time.end_time and/O 9/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O what/O is/O the/O capacity/O of/O the/O 73s/B-aircraft_code EOS/O
+BOS/O what/O is/O 73s/B-aircraft_code EOS/O
+BOS/O what/O is/O seating/O capacity/O on/B-on_word the/O aircraft/O 73s/B-aircraft_code EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O of/O a/O 757/B-aircraft_code EOS/O
+BOS/O how/O many/O people/O will/O a/O 757/B-aircraft_code hold/O EOS/O
+BOS/O how/O many/O passengers/O can/O fly/O on/B-on_word a/O 757/B-aircraft_code EOS/O
+BOS/O list/O all/O of/O the/O daily/B-flight_days flights/O arriving/O in/O denver/B-stoploc.city_name between/O 8/B-depart_time.end_time and/O 9/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O list/O all/O of/O the/O daily/B-flight_days flights/O arriving/O in/O denver/B-toloc.city_name from/B-from_word 8/O to/B-to_word 9/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O show/O me/O all/O of/O the/O daily/B-flight_days flights/O arriving/O in/O denver/B-stoploc.city_name between/O 8/B-arrive_time.end_time pm/I-arrive_time.end_time and/O 9/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O of/O the/O 757/B-aircraft_code EOS/O
+BOS/O tell/O me/O about/O the/O m80/B-aircraft_code aircraft/O EOS/O
+BOS/O tell/O me/O about/O the/O m80/B-aircraft_code aircraft/O EOS/O
+BOS/O tell/O me/O about/O the/O type/O of/O aircraft/O called/O an/O m80/B-aircraft_code EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O of/O the/O 733/B-aircraft_code EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O of/O the/O m80/B-aircraft_code EOS/O
+BOS/O what/O is/O the/O seating/O capacity/O on/B-on_word the/O aircraft/O m80/B-aircraft_code EOS/O
+BOS/O list/O all/O flights/O arriving/O or/O leaving/O denver/B-stoploc.city_name between/O 8/B-depart_time.end_time and/O 9/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O list/O all/O flights/O arriving/O in/O denver/B-stoploc.city_name between/O 8/B-depart_time.end_time and/O 9/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O list/O all/O flights/O on/B-on_word all/O types/O of/O aircraft/O arriving/O in/O denver/B-stoploc.city_name between/O 8/B-depart_time.end_time and/O 9/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O please/O list/O all/O flights/O from/B-from_word nashville/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O please/O list/O the/O flights/O from/B-from_word nashville/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name morning/B-depart_time.period_of_day EOS/O
+BOS/O is/O there/O ground/O transportation/O from/B-from_word the/O memphis/B-airport_name airport/I-airport_name into/O town/O when/O if/O i/O arrive/O at/B-at_word 842/B-depart_time.time in/O the/O morning/B-depart_time.period_of_day EOS/O
+BOS/O please/O list/O the/O flights/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name city/I-toloc.city_name on/B-on_word a/O monday/B-depart_date.day_name night/B-depart_time.period_of_day EOS/O
+BOS/O what/O is/O cvg/O EOS/O
+BOS/O what/O ground/O transportation/O is/O available/O from/B-from_word la/B-fromloc.airport_name guardia/I-fromloc.airport_name airport/I-fromloc.airport_name into/O new/B-fromloc.city_name york/I-fromloc.city_name city/I-fromloc.city_name EOS/O
+BOS/O is/O there/O ground/O transportation/O from/B-from_word lga/O into/O new/B-fromloc.city_name york/I-fromloc.city_name city/I-fromloc.city_name EOS/O
+BOS/O please/O list/O the/O ground/O transportation/O from/B-from_word lga/O into/O new/B-fromloc.city_name york/I-fromloc.city_name city/I-fromloc.city_name EOS/O
+BOS/O please/O list/O ground/O transportation/O from/B-from_word ewr/B-airport_code into/O new/B-fromloc.city_name york/I-fromloc.city_name city/I-fromloc.city_name EOS/O
+BOS/O show/O me/O the/O morning/B-depart_time.period_of_day flights/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name city/I-toloc.city_name EOS/O
+BOS/O give/O me/O the/O flights/O from/B-from_word new/B-fromloc.city_name york/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word nashville/B-toloc.city_name leaving/O after/B-depart_time.time_relative 5/B-depart_time.time pm/I-depart_time.time on/B-on_word wednesday/B-depart_date.day_name EOS/O
+BOS/O tell/O me/O about/O the/O ground/O transportation/O from/B-from_word nashville/B-fromloc.city_name airport/O EOS/O
+BOS/O what/O are/O the/O nonstop/B-flight_stop flights/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name leaving/O after/B-depart_time.time_relative noon/B-depart_time.time and/O arriving/O before/B-arrive_time.time_relative 7/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O how/O many/O flights/O does/O alaska/B-airline_name airlines/I-airline_name have/O to/B-to_word burbank/B-toloc.city_name EOS/O
+BOS/O list/O the/O alaska/B-airline_name airline/I-airline_name flights/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word anywhere/O EOS/O
+BOS/O list/O the/O alaska/B-airline_name airline/I-airline_name flights/O from/B-from_word burbank/B-fromloc.city_name EOS/O
+BOS/O which/O airline/O is/O as/B-airline_code EOS/O
+BOS/O list/O the/O alaska/B-airline_name airlines/I-airline_name flights/O arriving/O in/O burbank/B-fromloc.city_name EOS/O
+BOS/O list/O the/O alaska/B-airline_name airlines/I-airline_name flights/O a/O departing/O from/B-from_word burbank/B-fromloc.city_name EOS/O
+BOS/O list/O all/O alaska/B-airline_name airlines/I-airline_name flights/O EOS/O
+BOS/O list/O all/O flights/O departing/O from/B-from_word seattle/B-fromloc.city_name EOS/O
+BOS/O list/O the/O flights/O from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name that/O leave/O before/B-arrive_time.time_relative noon/B-arrive_time.time EOS/O
+BOS/O list/O the/O cheapest/B-cost_relative fare/O from/B-from_word charlotte/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name EOS/O
+BOS/O i/O want/O a/O flight/O from/B-from_word los/B-fromloc.city_name angeles/I-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name early/B-depart_time.period_mod in/O the/O morning/B-depart_time.period_of_day EOS/O
+BOS/O i/O would/O like/O a/O morning/B-depart_time.period_of_day flight/O from/B-from_word charlotte/B-fromloc.city_name to/B-to_word newark/B-toloc.city_name EOS/O
+BOS/O i/O 'd/O like/O a/O morning/B-depart_time.period_of_day flight/O from/B-from_word newark/B-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O i/O 'd/O like/O an/O evening/B-depart_time.period_of_day flight/O from/B-from_word newark/B-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O i/O would/O like/O a/O flight/O that/O leaves/O on/B-on_word sunday/B-depart_date.day_name from/B-from_word montreal/B-fromloc.city_name quebec/B-fromloc.state_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name california/B-toloc.state_name EOS/O
+BOS/O i/O would/O like/O a/O flight/O on/B-on_word tuesday/B-depart_date.day_name which/O leaves/O from/B-from_word san/B-fromloc.city_name diego/I-fromloc.city_name to/B-to_word indianapolis/B-toloc.city_name indiana/B-toloc.state_name and/O that/O leaves/O in/O the/O afternoon/B-depart_time.period_of_day EOS/O
+BOS/O i/O would/O like/O to/B-to_word leave/O thursday/B-depart_date.day_name morning/B-depart_time.period_of_day from/B-from_word indianapolis/B-fromloc.city_name to/B-to_word toronto/B-toloc.city_name EOS/O
+BOS/O i/O would/O like/O a/O flight/O on/B-on_word friday/B-depart_date.day_name morning/B-depart_time.period_of_day from/B-from_word toronto/B-fromloc.city_name to/B-to_word montreal/B-toloc.city_name EOS/O
+BOS/O i/O would/O like/O a/O flight/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word burbank/B-toloc.city_name on/B-on_word american/B-airline_name EOS/O
+BOS/O what/O type/O of/O aircraft/O is/O used/O for/O the/O american/B-airline_name flight/O leaving/O at/B-at_word 419/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O i/O need/O a/O flight/O leaving/O kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word chicago/B-toloc.city_name leaving/O next/B-depart_date.date_relative wednesday/B-depart_date.day_name and/O returning/O the/B-return_date.today_relative following/I-return_date.today_relative day/I-return_date.today_relative EOS/O
+BOS/O what/O flights/O go/O from/B-from_word long/B-fromloc.city_name beach/I-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word las/B-toloc.city_name vegas/I-toloc.city_name EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word las/B-fromloc.city_name vegas/I-fromloc.city_name to/B-to_word ontario/B-toloc.city_name EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word ontario/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name EOS/O
+BOS/O what/O type/O of/O ground/O transportation/O is/O there/O at/B-at_word the/O las/B-airport_name vegas/I-airport_name airport/I-airport_name EOS/O
+BOS/O is/O there/O taxi/B-transport_type service/O at/B-at_word the/O ontario/B-airport_name airport/I-airport_name EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word tampa/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word seattle/B-toloc.city_name EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word la/B-fromloc.airport_name guardia/I-fromloc.airport_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name on/B-on_word united/B-airline_name EOS/O
+BOS/O what/O are/O the/O flights/O on/B-on_word mondays/B-depart_date.day_name that/O travel/O from/B-from_word charlotte/B-fromloc.city_name north/B-fromloc.state_name carolina/I-fromloc.state_name to/B-to_word phoenix/B-toloc.city_name arizona/B-toloc.state_name EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word phoenix/B-fromloc.city_name arizona/I-fromloc.city_name to/B-to_word st./B-toloc.city_name paul/I-toloc.city_name minnesota/B-toloc.state_name on/B-on_word tuesday/B-depart_date.day_name EOS/O
+BOS/O what/O are/O the/O flights/O on/B-on_word thursday/B-depart_date.day_name leaving/O from/B-from_word st./B-fromloc.city_name paul/I-fromloc.city_name minnesota/B-fromloc.state_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name north/B-toloc.state_name carolina/I-toloc.state_name leaving/O on/B-on_word friday/B-depart_date.day_name EOS/O
+BOS/O what/O are/O the/O flights/O from/B-from_word boston/B-fromloc.city_name to/B-to_word orlando/B-toloc.city_name that/O stop/O in/O new/B-fromloc.city_name york/I-fromloc.city_name EOS/O
+BOS/O i/O need/O a/O morning/B-depart_time.period_of_day flight/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name on/B-on_word next/B-depart_date.date_relative monday/B-depart_date.day_name EOS/O
+BOS/O how/O about/O a/O flight/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name that/O leaves/O monday/B-depart_date.day_name night/B-depart_time.period_of_day EOS/O
+BOS/O and/O a/O flight/O from/B-from_word st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word burbank/B-toloc.city_name that/O leaves/O tuesday/B-depart_date.day_name afternoon/B-depart_time.period_of_day EOS/O
+BOS/O how/O about/O a/O flight/O leaving/O tuesday/B-depart_date.day_name night/B-depart_time.period_of_day from/B-from_word st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word burbank/B-toloc.city_name EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word salt/B-fromloc.city_name lake/I-fromloc.city_name to/B-to_word newark/B-toloc.airport_name airport/I-toloc.airport_name that/O arrives/O on/B-on_word saturday/B-arrive_date.day_name before/B-arrive_time.time_relative 6/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O i/O 'd/O like/O a/O flight/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word newark/B-toloc.airport_name airport/I-toloc.airport_name that/O arrives/O on/B-on_word saturday/B-arrive_date.day_name before/B-arrive_time.time_relative 6/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O i/O need/O a/O flight/O on/B-on_word american/B-airline_name airlines/I-airline_name from/B-from_word miami/B-fromloc.city_name to/B-to_word chicago/B-toloc.city_name that/O arrives/O around/B-arrive_time.time_relative 5/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O i/O need/O a/O flight/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name that/O goes/O through/O los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O what/O are/O the/O flights/O between/O cincinnati/B-stoploc.city_name and/O san/B-fromloc.city_name jose/I-fromloc.city_name california/B-fromloc.state_name which/O leave/O after/B-depart_time.time_relative 6/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O what/O are/O the/O nonstop/B-flight_stop flights/O between/O san/B-toloc.city_name jose/I-toloc.city_name and/O houston/B-city_name texas/B-state_name EOS/O
+BOS/O what/O are/O the/O nonstop/B-flight_stop flights/O between/O houston/B-toloc.city_name and/O memphis/B-fromloc.city_name EOS/O
+BOS/O what/O are/O the/O flights/O between/O memphis/B-fromloc.city_name and/O cincinnati/B-stoploc.city_name on/B-on_word wednesday/B-depart_date.day_name EOS/O
+BOS/O what/O are/O the/O american/B-airline_name flights/O from/B-from_word newark/B-fromloc.city_name to/B-to_word nashville/B-toloc.city_name EOS/O
+BOS/O the/O flights/O from/B-from_word ontario/B-fromloc.city_name to/B-to_word westchester/B-toloc.city_name that/O stop/O in/O chicago/B-toloc.city_name EOS/O
+BOS/O please/O list/O the/O flights/O from/B-from_word los/B-fromloc.city_name angeles/I-fromloc.city_name to/B-to_word charlotte/B-toloc.city_name EOS/O
+BOS/O please/O list/O the/O flights/O from/B-from_word charlotte/B-fromloc.city_name to/B-to_word newark/B-toloc.city_name EOS/O
+BOS/O please/O list/O the/O flights/O from/B-from_word newark/B-fromloc.city_name to/B-to_word los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O please/O list/O the/O flights/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word burbank/B-toloc.city_name on/B-on_word american/B-airline_name airlines/I-airline_name EOS/O
+BOS/O please/O give/O me/O the/O flights/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word chicago/B-toloc.city_name on/B-on_word june/B-depart_date.month_name sixteenth/B-depart_date.day_number EOS/O
+BOS/O please/O give/O me/O the/O flights/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name on/B-on_word june/B-depart_date.month_name seventeenth/B-depart_date.day_number EOS/O
+BOS/O please/O list/O all/O the/O flights/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word chicago/B-toloc.city_name on/B-on_word june/B-depart_date.month_name sixteenth/B-depart_date.day_number EOS/O
+BOS/O please/O list/O all/O the/O flights/O from/B-from_word chicago/B-fromloc.city_name to/B-to_word kansas/B-toloc.city_name city/I-toloc.city_name on/B-on_word june/B-depart_date.month_name seventeenth/B-depart_date.day_number EOS/O
+BOS/O i/O 'd/O like/O to/B-to_word travel/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O can/O you/O find/O me/O a/O flight/O from/B-from_word salt/B-fromloc.city_name lake/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name city/I-toloc.city_name next/B-arrive_date.date_relative saturday/B-arrive_date.day_name before/B-arrive_time.time_relative arriving/O before/B-arrive_time.time_relative 6/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O can/O you/O find/O me/O another/O flight/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name on/B-on_word saturday/B-arrive_date.day_name before/B-arrive_time.time_relative 6/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O can/O you/O list/O all/O of/O the/O delta/B-airline_name flights/O from/B-from_word salt/B-fromloc.city_name lake/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name next/B-depart_date.date_relative saturday/B-depart_date.day_name arriving/O before/B-arrive_time.time_relative 6/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O i/O 'd/O like/O to/B-to_word fly/O from/B-from_word miami/B-fromloc.city_name to/B-to_word chicago/B-toloc.city_name on/B-on_word on/B-on_word american/B-airline_name airlines/I-airline_name arriving/O around/B-arrive_time.time_relative 5/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O i/O 'd/O like/O to/B-to_word travel/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word chicago/B-toloc.city_name next/B-depart_date.date_relative wednesday/B-depart_date.day_name EOS/O
+BOS/O i/O 'd/O like/O a/O round/B-round_trip trip/I-round_trip flight/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word chicago/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name may/B-depart_date.month_name twenty/B-depart_date.day_number sixth/I-depart_date.day_number arriving/O at/B-at_word 7/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O yes/O i/O 'd/O like/O to/B-to_word find/O a/O flight/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name stopping/O in/O los/B-toloc.city_name angeles/I-toloc.city_name EOS/O
+BOS/O find/O flight/O from/B-from_word san/B-fromloc.city_name diego/I-fromloc.city_name to/B-to_word phoenix/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name am/B-depart_time.period_of_day EOS/O
+BOS/O find/O flight/O from/B-from_word phoenix/B-fromloc.city_name to/B-to_word detroit/B-toloc.city_name on/B-on_word monday/B-depart_date.day_name EOS/O
+BOS/O find/O flight/O from/B-from_word detroit/B-fromloc.city_name to/B-to_word san/B-toloc.city_name diego/I-toloc.city_name on/B-on_word tuesday/B-depart_date.day_name EOS/O
+BOS/O find/O flight/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word san/B-toloc.city_name jose/I-toloc.city_name on/B-on_word monday/B-depart_date.day_name EOS/O
+BOS/O find/O flight/O from/B-from_word san/B-fromloc.city_name jose/I-fromloc.city_name to/B-to_word houston/B-toloc.city_name on/B-on_word wednesday/B-depart_date.day_name EOS/O
+BOS/O find/O flight/O from/B-from_word houston/B-fromloc.city_name to/B-to_word memphis/B-toloc.city_name on/B-on_word friday/B-depart_date.day_name EOS/O
+BOS/O find/O flight/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word cincinnati/B-toloc.city_name on/B-on_word sunday/B-depart_date.day_name EOS/O
+BOS/O find/O american/B-airline_name flight/O from/B-from_word newark/B-fromloc.city_name to/B-to_word nashville/B-toloc.city_name around/B-arrive_time.time_relative 630/B-arrive_time.time pm/I-arrive_time.time EOS/O
+BOS/O please/O find/O a/O flight/O round/B-round_trip trip/I-round_trip from/B-from_word los/B-fromloc.city_name angeles/I-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name washington/B-toloc.state_name with/O a/O stopover/O in/O san/B-toloc.city_name francisco/I-toloc.city_name not/O exceeding/O the/O price/O of/O 300/B-fare_amount dollars/I-fare_amount for/O june/B-depart_date.month_name tenth/B-depart_date.day_number 1993/B-depart_date.year EOS/O
+BOS/O are/O there/O any/O flights/O on/B-on_word june/B-depart_date.month_name tenth/B-depart_date.day_number from/B-from_word burbank/B-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name EOS/O
+BOS/O please/O find/O a/O flight/O from/B-from_word ontario/B-fromloc.city_name to/B-to_word westchester/B-toloc.city_name that/O makes/O a/O stop/O in/O chicago/B-toloc.city_name on/B-on_word may/B-depart_date.month_name seventeenth/B-depart_date.day_number one/B-round_trip way/I-round_trip with/O dinner/B-meal_description EOS/O
+BOS/O like/O to/B-to_word book/O a/O flight/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O show/O me/O all/O the/O flights/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name EOS/O
+BOS/O find/O me/O all/O the/O flights/O from/B-from_word milwaukee/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name EOS/O
+BOS/O now/O show/O me/O all/O the/O flights/O from/B-from_word st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word burbank/B-toloc.city_name EOS/O
+BOS/O is/O there/O one/O airline/O that/O flies/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name milwaukee/B-fromloc.city_name to/B-to_word st./B-toloc.city_name louis/I-toloc.city_name and/O from/B-from_word st./B-fromloc.city_name louis/I-fromloc.city_name to/B-to_word burbank/B-toloc.city_name EOS/O
+BOS/O find/O me/O all/O the/O round/B-round_trip trip/I-round_trip flights/O from/B-from_word burbank/B-fromloc.city_name to/B-to_word milwaukee/B-toloc.city_name stopping/O in/O st./B-stoploc.city_name louis/I-stoploc.city_name EOS/O
+BOS/O i/O 'd/O like/O to/B-to_word book/O two/O flights/O to/B-to_word westchester/B-toloc.city_name county/I-toloc.city_name EOS/O
+BOS/O i/O want/O to/B-to_word book/O a/O flight/O from/B-from_word salt/B-fromloc.city_name lake/I-fromloc.city_name city/I-fromloc.city_name to/B-to_word westchester/B-toloc.city_name county/I-toloc.city_name EOS/O
+BOS/O tell/O me/O all/O the/O airports/O near/O westchester/B-city_name county/I-city_name EOS/O
+BOS/O i/O 'd/O like/O to/B-to_word book/O a/O flight/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word new/B-toloc.city_name york/I-toloc.city_name city/I-toloc.city_name on/B-on_word united/B-airline_name airlines/I-airline_name for/O next/B-depart_date.date_relative saturday/B-depart_date.day_name EOS/O
+BOS/O tell/O me/O all/O the/O airports/O in/O the/O new/B-toloc.city_name york/I-toloc.city_name city/I-toloc.city_name area/I-toloc.city_name EOS/O
+BOS/O please/O find/O all/O the/O flights/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word any/O airport/O in/O the/O new/B-toloc.city_name york/I-toloc.city_name city/I-toloc.city_name area/I-toloc.city_name that/O arrive/O next/B-depart_date.date_relative saturday/B-depart_date.day_name before/B-depart_time.time_relative 6/B-depart_time.time pm/I-depart_time.time EOS/O
+BOS/O find/O me/O a/O flight/O from/B-from_word cincinnati/B-fromloc.city_name to/B-to_word any/O airport/O in/O the/O new/B-toloc.city_name york/I-toloc.city_name city/I-toloc.city_name area/I-toloc.city_name EOS/O
+BOS/O i/O 'd/O like/O to/B-to_word fly/O from/B-from_word miami/B-fromloc.city_name to/B-to_word chicago/B-toloc.city_name on/B-on_word american/B-airline_name airlines/I-airline_name EOS/O
+BOS/O i/O would/O like/O to/B-to_word book/O a/O round/B-round_trip trip/I-round_trip flight/O from/B-from_word kansas/B-fromloc.city_name city/I-fromloc.city_name to/B-to_word chicago/B-toloc.city_name EOS/O
+BOS/O find/O me/O a/O flight/O that/O flies/O from/B-from_word memphis/B-fromloc.city_name to/B-to_word tacoma/B-toloc.city_name EOS/O
